@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65f888d8940b44ea9b1f35b7b5ee21ab, type: 3}
+  m_Name: Pikeman
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Pikeman
+  <MaxHealth>k__BackingField: 4
+  <Description>k__BackingField: If an enemy exist behind the target enemye it will
+    take half damage.
+  <Damage>k__BackingField: 2
+  <DamageRange>k__BackingField: 2
+  <ModelPrefab>k__BackingField: {fileID: 8272115209646727803, guid: 4c5e3e6fd38f66e45bf384e9366a98f7, type: 3}

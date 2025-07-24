@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdd3cd908dd04318bd829f6a893382b5, type: 3}
+  m_Name: Weak poison
+  m_EditorClassIdentifier: 
+  <ShowIcon>k__BackingField: 1
+  icon: {fileID: 0}
+  levelToIcon:
+    keyData: 010000000200000003000000
+    valueData:
+    - {fileID: 21300000, guid: 7820338215a57784ba198c5f3a1d4e2b, type: 3}
+    - {fileID: 21300000, guid: c744e7e92627e2f4da7d94cbe8a48022, type: 3}
+    - {fileID: 21300000, guid: e83175add2bb2aa46b6d417a88a117c3, type: 3}

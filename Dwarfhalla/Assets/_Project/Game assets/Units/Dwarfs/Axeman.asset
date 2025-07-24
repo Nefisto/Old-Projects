@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09c8f149b3bd4eceb9d744ae6269ac0a, type: 3}
+  m_Name: Axeman
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Axeman
+  <UnitWorth>k__BackingField: 1
+  <MaxHealth>k__BackingField: 2
+  <Description>k__BackingField: Gain life when placed near another axeman
+  <Damage>k__BackingField: 1
+  <DamageRange>k__BackingField: 2
+  <CoinReward>k__BackingField: 1
+  <ModelPrefab>k__BackingField: {fileID: 3654885584091018415, guid: 1ab1e380b8b4c4e42b3dee369ba4c477, type: 3}
+  spawnHealing: 1

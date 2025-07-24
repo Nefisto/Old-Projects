@@ -1,0 +1,1074 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8178248901741741803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Units/Common/Unit Death/Unit Death
+  m_EditorClassIdentifier: 
+  Path: event:/Units/Common/Unit Death/Unit Death
+  Guid:
+    Data1: -430104890
+    Data2: 1078654838
+    Data3: -260392318
+    Data4: 433458806
+  Banks:
+  - {fileID: 1675003327157351020}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7891835538413098672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Documents/Dwarfhalla/Dwarfhalla Audio/Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 638690910236638813
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-7758930044917041195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Room Ambience
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Room Ambience
+  Guid:
+    Data1: -398118082
+    Data2: 1240010494
+    Data3: 1603013262
+    Data4: 1092721155
+  Banks:
+  - {fileID: 7061080707819416783}
+  - {fileID: 1675003327157351020}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -1088239825152456877}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 17607
+--- !u!114 &-7070462864645406506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music Volume
+  m_EditorClassIdentifier: 
+  Name: Music Volume
+  StudioPath: parameter:/Music Volume
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 1743561230
+    data2: 1210019937
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-7057385868043747863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Units/Goblins/Goblin Comply 2
+  m_EditorClassIdentifier: 
+  Path: event:/Units/Goblins/Goblin Comply 2
+  Guid:
+    Data1: 1501386435
+    Data2: 1111680818
+    Data3: -474382951
+    Data4: -516845683
+  Banks:
+  - {fileID: 1675003327157351020}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6982336898110647016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Fireplace Volume
+  m_EditorClassIdentifier: 
+  Name: Fireplace Volume
+  StudioPath: parameter:/Fireplace Volume
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 4261870
+    data2: 209309754
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-6879412225241218069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Units/Common/Units Idle
+  m_EditorClassIdentifier: 
+  Path: event:/Units/Common/Units Idle
+  Guid:
+    Data1: -139419690
+    Data2: 1272663377
+    Data3: 1253193866
+    Data4: -2120291748
+  Banks:
+  - {fileID: 1675003327157351020}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -6482297921549449916}
+  - {fileID: 6544985904172383005}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &-6482297921549449916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Units Idle/Board Population (0 = empty 100 = full)
+  m_EditorClassIdentifier: 
+  Name: Board Population (0 = empty 100 = full)
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 1643333284
+    data2: 3402084181
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-6044626878815470233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Units/Goblins/Goblin Acknowledge
+  m_EditorClassIdentifier: 
+  Path: event:/Units/Goblins/Goblin Acknowledge
+  Guid:
+    Data1: 584789285
+    Data2: 1341535755
+    Data3: -782892879
+    Data4: -329833646
+  Banks:
+  - {fileID: 1675003327157351020}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5907842910358110368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI/Tooltip Appear
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI/Tooltip Appear
+  Guid:
+    Data1: -1800575268
+    Data2: 1098803142
+    Data3: -791626078
+    Data4: 128961722
+  Banks:
+  - {fileID: 1675003327157351020}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5700202812339630336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/How To Music/Music Volume
+  m_EditorClassIdentifier: 
+  Name: Music Volume
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 1743561230
+    data2: 1210019937
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-5642368251902691089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/How To Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music/How To Music
+  Guid:
+    Data1: 363189721
+    Data2: 1172428004
+    Data3: -1323238489
+    Data4: 98353908
+  Banks:
+  - {fileID: -7891835538413098672}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -5700202812339630336}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 19278
+--- !u!114 &-5486049117751804672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI/UI HUD Menu Click 2 (Cancel)
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI/UI HUD Menu Click 2 (Cancel)
+  Guid:
+    Data1: -1924758209
+    Data2: 1198275870
+    Data3: 710838410
+    Data4: -1822412701
+  Banks:
+  - {fileID: 1675003327157351020}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4077896250250754695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Documents/Dwarfhalla/Dwarfhalla Audio/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638690896146600692
+  FileSizes:
+  - Name: 
+    Value: 2694
+  Exists: 1
+--- !u!114 &-2248380135669395358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI/UI HUD Menu Page Open or Turn
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI/UI HUD Menu Page Open or Turn
+  Guid:
+    Data1: 1358695522
+    Data2: 1338821353
+    Data3: 1291455617
+    Data4: 109612923
+  Banks:
+  - {fileID: 1675003327157351020}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2002468956724586294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Random Music/Music Volume
+  m_EditorClassIdentifier: 
+  Name: Music Volume
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 1743561230
+    data2: 1210019937
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-1813957718994930561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Units/Common/Unit Death/Cloth Unit Death
+  m_EditorClassIdentifier: 
+  Path: event:/Units/Common/Unit Death/Cloth Unit Death
+  Guid:
+    Data1: 477396791
+    Data2: 1184986962
+    Data3: 658578560
+    Data4: 713207302
+  Banks:
+  - {fileID: 1675003327157351020}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1376816702078499957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Units/Dwarves/Dwarf Acknowledge
+  m_EditorClassIdentifier: 
+  Path: event:/Units/Dwarves/Dwarf Acknowledge
+  Guid:
+    Data1: -485720115
+    Data2: 1255834207
+    Data3: -101878629
+    Data4: -2076520651
+  Banks:
+  - {fileID: 1675003327157351020}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1088239825152456877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Room Ambience/Fireplace Volume
+  m_EditorClassIdentifier: 
+  Name: Fireplace Volume
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 4261870
+    data2: 209309754
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-479055285149462149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Units/Common/Unit Death/Leather Unit Death
+  m_EditorClassIdentifier: 
+  Path: event:/Units/Common/Unit Death/Leather Unit Death
+  Guid:
+    Data1: 1309311699
+    Data2: 1103039669
+    Data3: 725030821
+    Data4: 1092885690
+  Banks:
+  - {fileID: 1675003327157351020}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -4077896250250754695}
+  - {fileID: 7061080707819416783}
+  - {fileID: 6743811880262064124}
+  - {fileID: -7891835538413098672}
+  - {fileID: 1675003327157351020}
+  EditorEvents:
+  - {fileID: -7758930044917041195}
+  - {fileID: 8178767934775889587}
+  - {fileID: 7793380094642220101}
+  - {fileID: -5486049117751804672}
+  - {fileID: -7057385868043747863}
+  - {fileID: -2248380135669395358}
+  - {fileID: 61884810180904505}
+  - {fileID: 8057283700447659198}
+  - {fileID: 9089509476292803200}
+  - {fileID: -8178248901741741803}
+  - {fileID: 6333403931408324938}
+  - {fileID: -6879412225241218069}
+  - {fileID: -6044626878815470233}
+  - {fileID: 8874279184877425550}
+  - {fileID: 8013573403958908340}
+  - {fileID: 9212584761548269577}
+  - {fileID: 3119323127905546507}
+  - {fileID: -1376816702078499957}
+  - {fileID: -479055285149462149}
+  - {fileID: -1813957718994930561}
+  - {fileID: -5907842910358110368}
+  - {fileID: 4189990239005528267}
+  - {fileID: 7998575167070077805}
+  - {fileID: 2602494735304498418}
+  - {fileID: -5642368251902691089}
+  - {fileID: 7747776697450547764}
+  EditorParameters:
+  - {fileID: -6982336898110647016}
+  - {fileID: -7070462864645406506}
+  MasterBanks:
+  - {fileID: 6743811880262064124}
+  StringsBanks:
+  - {fileID: -4077896250250754695}
+  cacheTime: 638690910236638813
+  cacheVersion: 131621
+--- !u!114 &61884810180904505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Units/Common/Unit Death/Dead Unit Disappear
+  m_EditorClassIdentifier: 
+  Path: event:/Units/Common/Unit Death/Dead Unit Disappear
+  Guid:
+    Data1: -1999467111
+    Data2: 1217648008
+    Data3: 101175180
+    Data4: 1720347205
+  Banks:
+  - {fileID: 1675003327157351020}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1675003327157351020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Documents/Dwarfhalla/Dwarfhalla Audio/Desktop/SFX.bank
+  Name: SFX
+  StudioPath: bank:/SFX
+  lastModified: 638690879087278744
+  FileSizes: []
+  Exists: 1
+--- !u!114 &1792313754448728555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Suite 2/Music Volume
+  m_EditorClassIdentifier: 
+  Name: Music Volume
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 1743561230
+    data2: 1210019937
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &2602494735304498418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Suite 1
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Suite 1
+  Guid:
+    Data1: -1892386193
+    Data2: 1214688877
+    Data3: -1383340160
+    Data4: 1049627160
+  Banks:
+  - {fileID: -7891835538413098672}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 8995789969707421275}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 72777
+--- !u!114 &3119323127905546507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Units/Common/Unit Placement/Leather Unit Placement
+  m_EditorClassIdentifier: 
+  Path: event:/Units/Common/Unit Placement/Leather Unit Placement
+  Guid:
+    Data1: -135551557
+    Data2: 1177880991
+    Data3: 1203365813
+    Data4: -1271119782
+  Banks:
+  - {fileID: 1675003327157351020}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4189990239005528267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI/Tooltip Disappear
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI/Tooltip Disappear
+  Guid:
+    Data1: -1005268233
+    Data2: 1102840108
+    Data3: 2073810838
+    Data4: 1223093906
+  Banks:
+  - {fileID: 1675003327157351020}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6333403931408324938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Cards/Card Placement/Card Placement
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Cards/Card Placement/Card Placement
+  Guid:
+    Data1: 1358482379
+    Data2: 1132495887
+    Data3: -2080611451
+    Data4: 946872354
+  Banks:
+  - {fileID: 1675003327157351020}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6544985904172383005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Units Idle/Board Dominance (0 = Dwarves 100 = Goblins)
+  m_EditorClassIdentifier: 
+  Name: Board Dominance (0 = Dwarves 100 = Goblins)
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 116612804
+    data2: 3754076177
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &6743811880262064124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Documents/Dwarfhalla/Dwarfhalla Audio/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638690896146593230
+  FileSizes: []
+  Exists: 1
+--- !u!114 &7061080707819416783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Documents/Dwarfhalla/Dwarfhalla Audio/Desktop/Ambience.bank
+  Name: Ambience
+  StudioPath: bank:/Ambience
+  lastModified: 638690805288265972
+  FileSizes: []
+  Exists: 1
+--- !u!114 &7747776697450547764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Random Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Random Music
+  Guid:
+    Data1: -1160081208
+    Data2: 1247808954
+    Data3: 233190303
+    Data4: 728801600
+  Banks:
+  - {fileID: -7891835538413098672}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -2002468956724586294}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 98208
+--- !u!114 &7793380094642220101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Units/Common/Unit Attack/Unit Attack
+  m_EditorClassIdentifier: 
+  Path: event:/Units/Common/Unit Attack/Unit Attack
+  Guid:
+    Data1: 1282786087
+    Data2: 1228232251
+    Data3: -309138250
+    Data4: 1705461467
+  Banks:
+  - {fileID: 1675003327157351020}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7998575167070077805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Suite 2
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Suite 2
+  Guid:
+    Data1: -1406423018
+    Data2: 1135767504
+    Data3: -653638498
+    Data4: -66639667
+  Banks:
+  - {fileID: -7891835538413098672}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 1792313754448728555}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 69799
+--- !u!114 &8013573403958908340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Units/Common/Unit Placement/Unit Placement
+  m_EditorClassIdentifier: 
+  Path: event:/Units/Common/Unit Placement/Unit Placement
+  Guid:
+    Data1: -969344133
+    Data2: 1141591218
+    Data3: 1850155943
+    Data4: -1110451491
+  Banks:
+  - {fileID: 1675003327157351020}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8057283700447659198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI/UI HUD Menu Close
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI/UI HUD Menu Close
+  Guid:
+    Data1: -242758756
+    Data2: 1264184787
+    Data3: -1654716005
+    Data4: 1653885860
+  Banks:
+  - {fileID: 1675003327157351020}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8178767934775889587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI/UI HUD Menu Click 1 (Confirm)
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/UI/UI HUD Menu Click 1 (Confirm)
+  Guid:
+    Data1: 710158104
+    Data2: 1214454042
+    Data3: -23816294
+    Data4: 57142490
+  Banks:
+  - {fileID: 1675003327157351020}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8874279184877425550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Units/Goblins/Goblin Comply 1
+  m_EditorClassIdentifier: 
+  Path: event:/Units/Goblins/Goblin Comply 1
+  Guid:
+    Data1: -864598685
+    Data2: 1339341813
+    Data3: -1423728477
+    Data4: -871590017
+  Banks:
+  - {fileID: 1675003327157351020}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8995789969707421275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Suite 1/Music Volume
+  m_EditorClassIdentifier: 
+  Name: Music Volume
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 1743561230
+    data2: 1210019937
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &9089509476292803200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Cards/Card Pickup/Card Pickup
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Cards/Card Pickup/Card Pickup
+  Guid:
+    Data1: 1000115382
+    Data2: 1086782381
+    Data3: 693725332
+    Data4: -1480779922
+  Banks:
+  - {fileID: 1675003327157351020}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &9212584761548269577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Coin/Coin Appear and Disappear
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Coin/Coin Appear and Disappear
+  Guid:
+    Data1: -1290089871
+    Data2: 1110980080
+    Data3: -169912931
+    Data4: -870246934
+  Banks:
+  - {fileID: 1675003327157351020}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0

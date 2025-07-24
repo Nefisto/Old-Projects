@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51232528d9e44d578a0d2156460ca3fc, type: 3}
+  m_Name: _Card_Goblin soothsayer
+  m_EditorClassIdentifier: 
+  <Cost>k__BackingField: 1
+  <Icon>k__BackingField: {fileID: 21300000, guid: 5152efec88954df3a61fb62f8204412a, type: 3}
+  cardName: Goblin soothsayer
+  <UnitData>k__BackingField: {fileID: 11400000, guid: 7df403d2d6c96554083a96f024addbd5, type: 2}

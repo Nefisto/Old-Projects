@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 814aa3112bcf4d2489fdeb190c749287, type: 3}
+  m_Name: Medic
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Medic
+  <MaxHealth>k__BackingField: 3
+  <Description>k__BackingField: Heal allies in damage range
+  <Damage>k__BackingField: 1
+  <DamageRange>k__BackingField: 2
+  <ModelPrefab>k__BackingField: {fileID: 4833625335404466725, guid: 6061adc518f19bc49a4af8ebce583be8, type: 3}

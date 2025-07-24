@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dcb53c02384ac944a26364589e874c4, type: 3}
+  m_Name: Shield maiden
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Shield maiden
+  <MaxHealth>k__BackingField: 3
+  <Description>k__BackingField: Applies a shield on an ally at near range
+  <Damage>k__BackingField: 2
+  <DamageRange>k__BackingField: 2
+  <ModelPrefab>k__BackingField: {fileID: 56725933262136031, guid: be5234ad556e808479344a7b74147450, type: 3}
+  shieldModifier: {fileID: 11400000, guid: 4c043d4210b5a1c40914da3652c4b64d, type: 2}

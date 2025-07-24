@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07add0430ece4c6fbeffa16204881bc1, type: 3}
+  m_Name: Goblin darter
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Goblin darter
+  <UnitWorth>k__BackingField: 2
+  <MaxHealth>k__BackingField: 2
+  <Description>k__BackingField: 
+  <Damage>k__BackingField: 1
+  <DamageRange>k__BackingField: 2
+  <CoinReward>k__BackingField: 1
+  <ModelPrefab>k__BackingField: {fileID: 9206517395290851483, guid: 5af148df7f8fec04b84c5eb4e9631052, type: 3}
+  poisonToApply: {fileID: 11400000, guid: 816bed48e118b8e44aab8301b6d536ff, type: 2}

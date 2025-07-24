@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdda41b749f647b5b62e8f07110fa313, type: 3}
+  m_Name: Goblin master
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Goblin master
+  <UnitWorth>k__BackingField: 5
+  <MaxHealth>k__BackingField: 10
+  <Description>k__BackingField: 
+  <Damage>k__BackingField: 2
+  <DamageRange>k__BackingField: 2
+  <CoinReward>k__BackingField: 10
+  <ModelPrefab>k__BackingField: {fileID: 6818837106981395520, guid: ff61053c43b71e84198cb3dd9cce5ddb, type: 3}
+  goblinScullion: {fileID: 11400000, guid: 572dcb4b57e5ca44783809be7480f21e, type: 2}

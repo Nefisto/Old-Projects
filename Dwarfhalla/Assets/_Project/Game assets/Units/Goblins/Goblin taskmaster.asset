@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b545a697b46a44a888a4b795d225992b, type: 3}
+  m_Name: Goblin taskmaster
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Goblin taskmaster
+  <UnitWorth>k__BackingField: 2
+  <MaxHealth>k__BackingField: 3
+  <Description>k__BackingField: 
+  <Damage>k__BackingField: 1
+  <DamageRange>k__BackingField: 2
+  <CoinReward>k__BackingField: 1
+  <ModelPrefab>k__BackingField: {fileID: 9048264118385717024, guid: 06e105c2b4d11a947a78ccaf00f8e148, type: 3}

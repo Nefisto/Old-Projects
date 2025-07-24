@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd46ef81adfb45e5b53e657472078eed, type: 3}
+  m_Name: _Default_Vassal
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Vassal
+  <JobIcon>k__BackingField: {fileID: 7059746434948323333, guid: c915493af324a894fb1a104ba49a1e89, type: 3}
+  <Description>k__BackingField: Basic class, no unique behaviors
+  <SpecialSkill>k__BackingField: {fileID: 11400000, guid: 2443075106c396d4384c4d0f40ad0f9c, type: 2}
+  <SpecialResource>k__BackingField: {fileID: 11400000, guid: d660253d6e9f65f41b193c2f58d928a7, type: 2}
+  <PotentialBonus>k__BackingField:
+    <Strength>k__BackingField: 0
+    <Dexterity>k__BackingField: 0
+    <Vitality>k__BackingField: 0
+    <Intelligence>k__BackingField: 0
+  level: {x: 1, y: 1}
+  traitRequisites:
+    hasStrengthRequisite: 0
+    strength: {x: 3, y: 3}
+    hasDexterityRequisite: 0
+    dexterity: {x: 3, y: 3}
+    hasVitalityRequisite: 0
+    vitality: {x: 3, y: 3}
+    hasIntelligenceRequisite: 0
+    intelligence: {x: 3, y: 3}

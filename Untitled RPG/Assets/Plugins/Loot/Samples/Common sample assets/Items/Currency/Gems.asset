@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fccf005f904c4fb48943700fcd03c89e, type: 3}
+  m_Name: Gems
+  m_EditorClassIdentifier: 
+  id: 4b498302-bf02-43ff-be0e-46e625b2818a
+  quality: 0
+  icon: {fileID: -6927487838003770267, guid: a67a195d3845b7c42abbf3e0a9088bce, type: 3}
+  description: Most value game currency

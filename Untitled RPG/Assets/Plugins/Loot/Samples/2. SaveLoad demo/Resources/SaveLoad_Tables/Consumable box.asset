@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0836391a8de442f3a5312bd5523a70fb, type: 3}
+  m_Name: Consumable box
+  m_EditorClassIdentifier: 
+  tableIcon: {fileID: 0}
+  tableDescription: 
+  percentageCalculation: 1
+  drops:
+  - entry: {fileID: 11400000, guid: b25df2fe1fcee55498a9938ff79393b3, type: 2}
+    amountRange: {x: 1, y: 1}
+    weight: 50
+    percentage: 0
+    isExtensionDrop: 0
+    isGuaranteed: 0
+    isHidden: 0
+    ownerTable: {fileID: 11400000}
+    weightPercentage: 50
+  - entry: {fileID: 11400000, guid: 2608b3cda13e50b4d9178aa863467c79, type: 2}
+    amountRange: {x: 1, y: 1}
+    weight: 30
+    percentage: 0
+    isExtensionDrop: 0
+    isGuaranteed: 0
+    isHidden: 0
+    ownerTable: {fileID: 11400000}
+    weightPercentage: 30
+  - entry: {fileID: 11400000, guid: d0ee7ebacc1b31c4ca75bcda8dc06ba6, type: 2}
+    amountRange: {x: 1, y: 1}
+    weight: 15
+    percentage: 0
+    isExtensionDrop: 0
+    isGuaranteed: 0
+    isHidden: 0
+    ownerTable: {fileID: 11400000}
+    weightPercentage: 15
+  - entry: {fileID: 11400000, guid: 05988f1325a1cc943877f473f040c006, type: 2}
+    amountRange: {x: 1, y: 1}
+    weight: 5
+    percentage: 0
+    isExtensionDrop: 0
+    isGuaranteed: 0
+    isHidden: 0
+    ownerTable: {fileID: 11400000}
+    weightPercentage: 5

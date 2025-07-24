@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 7fbadf00509370741aeb34beb6e29b2f
+  m_SerializeEntries:
+  - m_GUID: 227ace4a67b7dbb49baf7102a1f40d2a
+    m_Address: Active skills
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - SkillData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 503b994e13f9b7b4f9134b5711880ec5
+    m_Address: Weapon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - WeaponData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14b3995ab698c3d498cd9ba3b32f6ad3
+    m_Address: Enemies data
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - EnemyData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34a87d94b9238c044881a606d1f5e844
+    m_Address: Player data
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PlayerData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c42f9312808c7c94e850a60c61c1f7da
+    m_Address: Game settings
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameSettings
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 830f4e0d922ea564490d158e921ceac8
+    m_Address: Game icons
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameIcons
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b07986b8afcbb14caa0a726b92fc581
+    m_Address: Armor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ArmorData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d718cdc5ac852cd4395a8eea57903596
+    m_Address: Account data
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AccountData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1e39653019c9b847a5b624063093308
+    m_Address: Location modifier
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocationTable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d90f95fa4656d464fa7b14f2f701497a
+    m_Address: Classes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Classes
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e96a42de0671d4b4f95736aea3e6da8c
+    m_Address: Locations
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - LocationModifier
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a78c3f10c3cad8242975b7046672390d, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e7265df3c9df3234fb208428e6f81c40, type: 2}
+    - {fileID: 11400000, guid: 0e32f493fc9283e419c28739faef58ef, type: 2}

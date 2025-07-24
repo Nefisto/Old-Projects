@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0836391a8de442f3a5312bd5523a70fb, type: 3}
+  m_Name: _Debuff modifier
+  m_EditorClassIdentifier: 
+  tableIcon: {fileID: 0}
+  tableDescription: 
+  percentageCalculation: 1
+  drops:
+  - entry: {fileID: 11400000, guid: c94710bc225fc5e439826442d9fac382, type: 2}
+    amountRange: {x: 1, y: 1}
+    weight: 1
+    odds: 0
+    isExtension: 0
+    isGuaranteed: 0
+    isDisabled: 0
+    ownerTable: {fileID: 11400000}
+    weightPercentage: 50
+    amountLimit: {x: 0, y: 10}
+    hasAlreadyUpdatedLimit: 1
+  - entry: {fileID: 11400000, guid: cc27e47655a626c4991cb37424d418ba, type: 2}
+    amountRange: {x: 1, y: 1}
+    weight: 1
+    odds: 0
+    isExtension: 0
+    isGuaranteed: 0
+    isDisabled: 0
+    ownerTable: {fileID: 11400000}
+    weightPercentage: 50
+    amountLimit: {x: 0, y: 10}
+    hasAlreadyUpdatedLimit: 1
+  clones: []

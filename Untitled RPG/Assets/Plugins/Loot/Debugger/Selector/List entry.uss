@@ -1,0 +1,136 @@
+.table-list__entry > Label {
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-center;
+}
+
+.table-list__header {
+    width: 100%;
+    min-height: 20px;
+}
+
+.table-list__header > Label {
+    background-color: rgb(70, 70, 70);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-left;
+}
+
+.table-entry__name {
+    width: 40%;
+}
+
+.table-entry__range {
+    width: 20%;
+    -unity-text-align: middle-center;
+}
+
+.table-entry__weight {
+    width: 10%;
+    -unity-text-align: upper-center;
+}
+
+.table-entry__is-guaranteed {
+    width: 5%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.table-entry__is-hidden {
+    width: 5%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.table-entry__is-extension {
+    width: 5%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.table-entry__current-percentage {
+    flex-grow: 1;
+    -unity-text-align: upper-center;
+}
+
+#unity-checkmark {
+    -unity-background-scale-mode: scale-to-fit;
+    height: 50%;
+    display: flex;
+    flex-grow: 1;
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.unity-toggle__input {
+    flex-grow: 1;
+    flex-shrink: 0;
+    justify-content: center;
+}
+
+.table-list__percentage-type {
+    -unity-text-align: middle-center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.table-list__entry--disabled > Label {
+    color: rgb(159, 155, 155);
+}
+
+.table-list__entry--hierarchy {
+}
+
+.table-entry__tag {
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-image: resource('Icons/white square 3x3');
+    -unity-background-scale-mode: scale-and-crop;
+    flex-grow: 1;
+    max-width: 25px;
+    height: 80%;
+}
+
+.table-entry__tag > Label {
+    -unity-text-align: middle-center;
+    flex-grow: 1;
+}
+
+.tablelist__entry__tag--guaranteed {
+    -unity-background-image-tint-color: rgb(54, 99, 49);
+}
+
+.tablelist__entry__tag--disabled {
+    -unity-background-image-tint-color: rgb(0, 0, 0);
+}
+
+.tablelist__entry__tag--extension {
+    -unity-background-image-tint-color: rgb(99, 95, 49);
+}
+
+.tablelist__entry__tag--filtered {
+    -unity-background-image-tint-color: rgb(123, 48, 48);
+}

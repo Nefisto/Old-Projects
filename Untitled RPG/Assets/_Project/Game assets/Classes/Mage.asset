@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd46ef81adfb45e5b53e657472078eed, type: 3}
+  m_Name: Mage
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Mage
+  <JobIcon>k__BackingField: {fileID: 878725919, guid: 2709fc6bd03592743a2f89cf35a5e11d, type: 3}
+  <Description>k__BackingField: Magic class with the ability to make extra use of
+    mana recycling it.
+  <SpecialSkill>k__BackingField: {fileID: 11400000, guid: 612979337c1c1b64092865519dc98308, type: 2}
+  <SpecialResource>k__BackingField: {fileID: 11400000, guid: a3a3abe34dab65247946db5cf103f0c0, type: 2}
+  <PotentialBonus>k__BackingField:
+    <Strength>k__BackingField: 3
+    <Dexterity>k__BackingField: 0
+    <Vitality>k__BackingField: 0
+    <Intelligence>k__BackingField: 0
+  level: {x: 23, y: 27}
+  traitRequisites:
+    hasStrengthRequisite: 1
+    strength: {x: 5, y: 7}
+    hasDexterityRequisite: 1
+    dexterity: {x: 3, y: 4}
+    hasVitalityRequisite: 0
+    vitality: {x: 3, y: 3}
+    hasIntelligenceRequisite: 0
+    intelligence: {x: 3, y: 3}

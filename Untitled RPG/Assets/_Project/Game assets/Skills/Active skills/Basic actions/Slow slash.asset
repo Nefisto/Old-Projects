@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae82884ec178430bac9882b6e16716e0, type: 3}
+  m_Name: Slow slash
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Slash
+  <Icon>k__BackingField: {fileID: 21300000, guid: 28c9e541a5823b944877df0309f51f2e, type: 3}
+  <Description>k__BackingField: 
+  <Duration>k__BackingField: 0
+  <FatigueAmount>k__BackingField: 0
+  <Cooldown>k__BackingField: 0
+  <ResourceCost>k__BackingField: 0
+  <MainAttributesOrder>k__BackingField: 0
+  <SkillType>k__BackingField: 1
+  effectToApply:
+  - statusEffect: {fileID: 11400000, guid: fffaf84d7a3aa4049937a29c98de65ca, type: 2}
+    baseChanceToTrigger: 1
+    baseChanceToApply: 2
+  shouldWaitForFinish: 0
+  <ChanceToHit>k__BackingField: 0.95
+  <CriticalChance>k__BackingField: 0.05
+  <Target>k__BackingField: 0
+  atbModifier: 1
+  chargeLevelSettings: []
+  animationTypeEnum: 1
+  <SpeedVariation>k__BackingField: {x: 0.75, y: 1.5}
+  <OffsetVariationInX>k__BackingField: {x: -0.25, y: 0.25}
+  <OffsetVariationInY>k__BackingField: {x: -0.25, y: 0.25}
+  <SizeVariation>k__BackingField: {x: 0.75, y: 1.25}
+  <CanFlipX>k__BackingField: 1
+  <ShouldFlipYForPlayer>k__BackingField: 1

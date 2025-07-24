@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9fdec7c896420d9687430bdb588da7, type: 3}
+  m_Name: Crimson axe
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  serializedField:
+    <Icon>k__BackingField: {fileID: 21300000, guid: 5b905e3866f91d449b62542701e8eb31, type: 3}
+    <Name>k__BackingField: Crimson axe
+    <DefaultSkill>k__BackingField: {fileID: 11400000, guid: b6e07fcddf50ab147a93af66a499f399, type: 2}
+    <SkillA>k__BackingField: {fileID: 11400000, guid: cb7cc5c44696717478446bca16002096, type: 2}
+    <SkillB>k__BackingField: {fileID: 11400000, guid: d66b5e103ea881b409e069fd2f7c04f5, type: 2}
+    <Potential>k__BackingField:
+      strength: 0
+      vitality: 0
+      dexterity: 0
+      intelligence: 0
+    gearSpeed: 0
+    <MainTraitKind>k__BackingField: 3
+    passiveSkills: []

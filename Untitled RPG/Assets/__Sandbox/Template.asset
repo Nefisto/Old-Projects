@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09bfeaa569454ef0bff07240bb14f115, type: 3}
+  m_Name: Template
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  serializedField:
+    characterIcon: {fileID: 7059746434948323333, guid: c915493af324a894fb1a104ba49a1e89, type: 3}
+    traitChart:
+      <StrengthSector>k__BackingField:
+        <AccuracyAttribute>k__BackingField:
+          grow: 3
+          points: 6
+          attributeType: 1
+        <HealthRegenAttribute>k__BackingField:
+          grow: 2
+          points: 5
+          attributeType: 0
+        <CriticalDamageAttribute>k__BackingField:
+          grow: 11
+          points: 14
+          attributeType: 2
+      <VitalitySector>k__BackingField:
+        <HealthMaxAttribute>k__BackingField:
+          grow: 4
+          points: 7
+          attributeType: 3
+        <DefenseAttribute>k__BackingField:
+          grow: 12
+          points: 15
+          attributeType: 4
+        <ResistanceAttribute>k__BackingField:
+          grow: 1
+          points: 4
+          attributeType: 5
+      <DexteritySector>k__BackingField:
+        <EvasionAttribute>k__BackingField:
+          grow: 1
+          points: 1
+          attributeType: 6
+        <CriticalChanceAttribute>k__BackingField:
+          grow: 1
+          points: 1
+          attributeType: 7
+        <AttackSpeedAttribute>k__BackingField:
+          grow: 1
+          points: 1
+          attributeType: 8
+      <IntelligenceSector>k__BackingField:
+        <ProficiencyAttribute>k__BackingField:
+          grow: 1
+          points: 1
+          attributeType: 9
+        <ManaMaxAttribute>k__BackingField:
+          grow: 1
+          points: 1
+          attributeType: 10
+        <ManaRegenAttribute>k__BackingField:
+          grow: 1
+          points: 1
+          attributeType: 11
+    currentEquipment:
+      <CurrentWeapon>k__BackingField:
+        <Icon>k__BackingField: {fileID: 2409819348794142418, guid: c4774c986045a6747a04845c2edc78bd, type: 3}
+        <Name>k__BackingField: 
+        <Potential>k__BackingField:
+          strength: 0
+          vitality: 0
+          dexterity: 0
+          intelligence: 0
+        <MainTraitKind>k__BackingField: 0
+        <DefaultAttack>k__BackingField: {fileID: 0}
+        <DefaultDefense>k__BackingField: {fileID: 0}
+        skillA: {fileID: 0}
+        skillB: {fileID: 0}
+        skillC: {fileID: 0}
+        skillD: {fileID: 0}
+        passiveSkills: []
+      <CurrentArmor>k__BackingField:
+        <Icon>k__BackingField: {fileID: -1952135639, guid: ff9564f46c5522943acccb523349c183, type: 3}
+        <Name>k__BackingField: 
+        <Potential>k__BackingField:
+          strength: 0
+          vitality: 0
+          dexterity: 0
+          intelligence: 0

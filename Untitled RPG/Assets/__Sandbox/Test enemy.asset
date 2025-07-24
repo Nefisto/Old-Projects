@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd46d2ddd2a94464b8ffcf6c11ea5d12, type: 3}
+  m_Name: Test enemy
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  serializedField:
+    <Name>k__BackingField: Yellow slime
+    <TraitChart>k__BackingField:
+      <StrengthSector>k__BackingField:
+        <AccuracyAttribute>k__BackingField:
+          grow: 9
+          points: 15
+          attributeType: 1
+        <HealthRegenAttribute>k__BackingField:
+          grow: 9
+          points: 15
+          attributeType: 1
+        <CriticalDamageAttribute>k__BackingField:
+          grow: 9
+          points: 15
+          attributeType: 2
+      <VitalitySector>k__BackingField:
+        <HealthMaxAttribute>k__BackingField:
+          grow: 5
+          points: 8
+          attributeType: 6
+        <DefenseAttribute>k__BackingField:
+          grow: 5
+          points: 8
+          attributeType: 7
+        <ResistanceAttribute>k__BackingField:
+          grow: 5
+          points: 8
+          attributeType: 8
+      <DexteritySector>k__BackingField:
+        <EvasionAttribute>k__BackingField:
+          grow: 9
+          points: 15
+          attributeType: 3
+        <CriticalChanceAttribute>k__BackingField:
+          grow: 9
+          points: 15
+          attributeType: 7
+        <AttackSpeedAttribute>k__BackingField:
+          grow: 9
+          points: 15
+          attributeType: 5
+      <IntelligenceSector>k__BackingField:
+        <ProficiencyAttribute>k__BackingField:
+          grow: 1
+          points: 1
+          attributeType: 9
+        <ManaMaxAttribute>k__BackingField:
+          grow: 1
+          points: 1
+          attributeType: 10
+        <ManaRegenAttribute>k__BackingField:
+          grow: 1
+          points: 1
+          attributeType: 11
+    <CurrentLevel>k__BackingField: 0
+    <Sprite>k__BackingField: {fileID: 21300000, guid: caf53b87236923440afc7b0ce853a84b, type: 3}
+    mainTraitKind: 0
+    <Badge>k__BackingField: {fileID: -833478177, guid: 43643aa7a7de7394ab4e4fdddfb61fbc, type: 3}
+    <DefaultAttackSkill>k__BackingField: {fileID: 11400000, guid: 7bb09ff84d6585b42a85e56a36d887b4, type: 2}
+    <DefaultAction>k__BackingField: {fileID: 11400000, guid: e80fcc2889b48b3499ebbccdf8c9aa61, type: 2}
+    <ConditionToActions>k__BackingField: []
+    <Skills>k__BackingField:
+    - {fileID: 11400000, guid: 7bb09ff84d6585b42a85e56a36d887b4, type: 2}

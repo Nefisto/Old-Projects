@@ -1,0 +1,800 @@
+fileFormatVersion: 2
+guid: 3b6ad3080b13cbe48b195c8edb329307
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 0
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 24
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 0
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 0
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638496714894681764
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Coin throw_Frame_0
+    originalName: 
+    pivot: {x: -0.6, y: 5.3333335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 125
+      y: 147
+      width: 5
+      height: 6
+    spriteID: 1b3cd3e045c9016468361bf6168f469d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 125, y: 147}
+  - name: Coin throw_Frame_1
+    originalName: 
+    pivot: {x: -0.6, y: 0.939394}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 125
+      y: 106
+      width: 5
+      height: 33
+    spriteID: d9a34a7d38ae8fd47bb09008ffe84d66
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 125, y: 106}
+  - name: Coin throw_Frame_2
+    originalName: 
+    pivot: {x: 0.44444445, y: 0.7619048}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 125
+      y: 56
+      width: 18
+      height: 42
+    spriteID: 8d3351f838408e04eb01f3435d58f02f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 125, y: 56}
+  - name: Coin throw_Frame_3
+    originalName: 
+    pivot: {x: 0.4, y: 0.7045455}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 125
+      y: 4
+      width: 20
+      height: 44
+    spriteID: 63089116975900346970e5e946bbfd5e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 125, y: 4}
+  - name: Coin throw_Frame_4
+    originalName: 
+    pivot: {x: 0.39999998, y: 0.6666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 51
+      y: 63
+      width: 25
+      height: 48
+    spriteID: 2e7156f6a4ab6f3468afc8b72c515155
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 51, y: 63}
+  - name: Coin throw_Frame_5
+    originalName: 
+    pivot: {x: 0.40000004, y: 0.65957445}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 4
+      width: 30
+      height: 47
+    spriteID: 2ce7b3d12859fef4ca21ece2105394c3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 4}
+  - name: Coin throw_Frame_6
+    originalName: 
+    pivot: {x: 0.44117647, y: 0.6666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 59
+      width: 34
+      height: 48
+    spriteID: 9912b751760e15f498c9a2458665f59e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 59}
+  - name: Coin throw_Frame_7
+    originalName: 
+    pivot: {x: 0.46153846, y: 0.65957445}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 39
+      height: 47
+    spriteID: 5014cb17da42adc40a67ac0940782c5d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Coin throw_Frame_8
+    originalName: 
+    pivot: {x: 0.6551724, y: 0.64444447}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 114
+      width: 29
+      height: 45
+    spriteID: 5cc5f4cee3bc7f246ab56d073b592539
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 114}
+  - name: Coin throw_Frame_9
+    originalName: 
+    pivot: {x: 0.6363636, y: 0.6363636}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 173
+      width: 33
+      height: 44
+    spriteID: dd9b4bf30ed9f3744bbcf73fe2c92d24
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 173}
+  - name: Coin throw_Frame_10
+    originalName: 
+    pivot: {x: 0.25, y: 0.6666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 51
+      y: 174
+      width: 20
+      height: 48
+    spriteID: e333bb41a9d45be46a1e4ae086319ac9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 51, y: 174}
+  - name: Coin throw_Frame_11
+    originalName: 
+    pivot: {x: 0.28, y: 0.65957445}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 51
+      y: 119
+      width: 25
+      height: 47
+    spriteID: 3d23a444832e6ea49877eb4393c7df97
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 51, y: 119}
+  - name: Coin throw_Frame_12
+    originalName: 
+    pivot: {x: 0.3214286, y: 0.627451}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 51
+      y: 4
+      width: 28
+      height: 51
+    spriteID: 829170e54dd409c4ca3d5de8e1848982
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 51, y: 4}
+  - name: Coin throw_Frame_13
+    originalName: 
+    pivot: {x: 0.3, y: 0.62}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 115
+      width: 30
+      height: 50
+    spriteID: f08b60bb04564c34cae55b2b5df821b3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 115}
+  - name: Coin throw_Frame_14
+    originalName: 
+    pivot: {x: 0.4615385, y: 0.64}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 167
+      width: 26
+      height: 50
+    spriteID: 80e168881f4883d44b39b2fd469a532d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 167}
+  - name: Coin throw_Frame_15
+    originalName: 
+    pivot: {x: 0.4666667, y: 0.65957445}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 59
+      width: 30
+      height: 47
+    spriteID: 18d3fac0be247684a9f42d446fbf9006
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 59}
+  - name: Coin throw_Frame_16
+    originalName: 
+    pivot: {x: 0.5357143, y: 0.11111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 51
+      y: 230
+      width: 28
+      height: 18
+    spriteID: 63ed59e7bab0fa6478b210e9f6dededd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 51, y: 230}
+  - name: Coin throw_Frame_17
+    originalName: 
+    pivot: {x: 0.46428573, y: -0.14285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 225
+      width: 28
+      height: 14
+    spriteID: 957681f9d2d559f459d8d382f4669a6f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 225}
+  - name: Coin throw_Frame_18
+    originalName: 
+    pivot: {x: 0, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 243
+      width: 18
+      height: 8
+    spriteID: 92175a6753bf8b44fa64b03bffde7e42
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 243}
+  - name: Coin throw_Frame_19
+    originalName: 
+    pivot: {x: -0.16666667, y: -0.6}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 225
+      width: 18
+      height: 10
+    spriteID: 57818a3ea3b26b745ab5caf27f2c3f3c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 225}
+  - name: Coin throw_Frame_20
+    originalName: 
+    pivot: {x: -2.1428573, y: -1.1428572}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 243
+      width: 7
+      height: 7
+    spriteID: 984995fd68a8d4344b67ead113f5e781
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 243}
+  - name: Coin throw_Frame_21
+    originalName: 
+    pivot: {x: -3, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 225
+      width: 6
+      height: 6
+    spriteID: 8af67735619c8524fa77518f6955dee4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 225}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1927782237
+    name: Coin throw
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Coin throw_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 35
+        y: 0
+        width: 5
+        height: 6
+      spriteId: 1b3cd3e045c9016468361bf6168f469d
+    - name: Coin throw_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 35
+        y: 1
+        width: 5
+        height: 33
+      spriteId: d9a34a7d38ae8fd47bb09008ffe84d66
+    - name: Coin throw_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 24
+        y: 0
+        width: 18
+        height: 42
+      spriteId: 8d3351f838408e04eb01f3435d58f02f
+    - name: Coin throw_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 24
+        y: 1
+        width: 20
+        height: 44
+      spriteId: 63089116975900346970e5e946bbfd5e
+    - name: Coin throw_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 22
+        y: 0
+        width: 25
+        height: 48
+      spriteId: 2e7156f6a4ab6f3468afc8b72c515155
+    - name: Coin throw_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 20
+        y: 1
+        width: 30
+        height: 47
+      spriteId: 2ce7b3d12859fef4ca21ece2105394c3
+    - name: Coin throw_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 17
+        y: 0
+        width: 34
+        height: 48
+      spriteId: 9912b751760e15f498c9a2458665f59e
+    - name: Coin throw_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 14
+        y: 1
+        width: 39
+        height: 47
+      spriteId: 5014cb17da42adc40a67ac0940782c5d
+    - name: Coin throw_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 13
+        y: 3
+        width: 29
+        height: 45
+      spriteId: 5cc5f4cee3bc7f246ab56d073b592539
+    - name: Coin throw_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 11
+        y: 4
+        width: 33
+        height: 44
+      spriteId: dd9b4bf30ed9f3744bbcf73fe2c92d24
+    - name: Coin throw_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 27
+        y: 0
+        width: 20
+        height: 48
+      spriteId: e333bb41a9d45be46a1e4ae086319ac9
+    - name: Coin throw_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 25
+        y: 1
+        width: 25
+        height: 47
+      spriteId: 3d23a444832e6ea49877eb4393c7df97
+    - name: Coin throw_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 23
+        y: 0
+        width: 28
+        height: 51
+      spriteId: 829170e54dd409c4ca3d5de8e1848982
+    - name: Coin throw_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 23
+        y: 1
+        width: 30
+        height: 50
+      spriteId: f08b60bb04564c34cae55b2b5df821b3
+    - name: Coin throw_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 20
+        y: 0
+        width: 26
+        height: 50
+      spriteId: 80e168881f4883d44b39b2fd469a532d
+    - name: Coin throw_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 18
+        y: 1
+        width: 30
+        height: 47
+      spriteId: 18d3fac0be247684a9f42d446fbf9006
+    - name: Coin throw_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 17
+        y: 30
+        width: 28
+        height: 18
+      spriteId: 63ed59e7bab0fa6478b210e9f6dededd
+    - name: Coin throw_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 19
+        y: 34
+        width: 28
+        height: 14
+      spriteId: 957681f9d2d559f459d8d382f4669a6f
+    - name: Coin throw_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 32
+        y: 40
+        width: 18
+        height: 8
+      spriteId: 92175a6753bf8b44fa64b03bffde7e42
+    - name: Coin throw_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 35
+        y: 38
+        width: 18
+        height: 10
+      spriteId: 57818a3ea3b26b745ab5caf27f2c3f3c
+    - name: Coin throw_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 47
+        y: 40
+        width: 7
+        height: 7
+      spriteId: 984995fd68a8d4344b67ead113f5e781
+    - name: Coin throw_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 50
+        y: 38
+        width: 6
+        height: 6
+      spriteId: 8af67735619c8524fa77518f6955dee4
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}

@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd46d2ddd2a94464b8ffcf6c11ea5d12, type: 3}
+  m_Name: Squirrel 2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  serializedField:
+    <Name>k__BackingField: Squirrel
+    <TraitChart>k__BackingField:
+      <StrengthSector>k__BackingField:
+        <AccuracyAttribute>k__BackingField:
+          grow: 3
+          points: 4
+          attributeType: 1
+        <HealthRegenAttribute>k__BackingField:
+          grow: 3
+          points: 4
+          attributeType: 1
+        <CriticalDamageAttribute>k__BackingField:
+          grow: 1
+          points: 2
+          attributeType: 2
+      <VitalitySector>k__BackingField:
+        <HealthMaxAttribute>k__BackingField:
+          grow: 1
+          points: 1
+          attributeType: 6
+        <DefenseAttribute>k__BackingField:
+          grow: 1
+          points: 1
+          attributeType: 7
+        <ResistanceAttribute>k__BackingField:
+          grow: 1
+          points: 1
+          attributeType: 8
+      <DexteritySector>k__BackingField:
+        <EvasionAttribute>k__BackingField:
+          grow: 1
+          points: 1
+          attributeType: 3
+        <CriticalChanceAttribute>k__BackingField:
+          grow: 1
+          points: 1
+          attributeType: 7
+        <AttackSpeedAttribute>k__BackingField:
+          grow: 1
+          points: 1
+          attributeType: 5
+      <IntelligenceSector>k__BackingField:
+        <ProficiencyAttribute>k__BackingField:
+          grow: 1
+          points: 1
+          attributeType: 9
+        <ManaMaxAttribute>k__BackingField:
+          grow: 1
+          points: 1
+          attributeType: 10
+        <ManaRegenAttribute>k__BackingField:
+          grow: 1
+          points: 1
+          attributeType: 11
+    <CurrentLevel>k__BackingField: 0
+    <Sprite>k__BackingField: {fileID: -416034388, guid: 077f80bfb66a92c47bd84b7ddb3fccc2, type: 3}
+    mainTraitKind: 0
+    <Badge>k__BackingField: {fileID: 199821080, guid: 43643aa7a7de7394ab4e4fdddfb61fbc, type: 3}
+    <DefaultAttackSkill>k__BackingField: {fileID: 11400000, guid: a49a5adac93253b428f5eae401d52f3d, type: 2}
+    <DefaultAction>k__BackingField: {fileID: 11400000, guid: f0d0b95865f716c439145659b93baada, type: 2}
+    <ConditionToActions>k__BackingField:
+    - condition: {fileID: 11400000, guid: f8d17e09972fb614dbde10ac904c01ba, type: 2}
+      action: {fileID: 11400000, guid: e80fcc2889b48b3499ebbccdf8c9aa61, type: 2}
+    - condition: {fileID: 11400000, guid: f69075d8d9469a643a23a7314cdd23a0, type: 2}
+      action: {fileID: 11400000, guid: 87f2ee8fe0195554aa13b6f7bde9b9aa, type: 2}
+    <Skills>k__BackingField:
+    - {fileID: 11400000, guid: 3806ead01f9fcda4093afd528aff5e21, type: 2}
+    - {fileID: 11400000, guid: 56fee66e3123c8c4081ba509523524c3, type: 2}

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9866c4b58da94c4690b6b91d5e711b6a, type: 3}
+  m_Name: Goblin card
+  m_EditorClassIdentifier: 
+  id: 09072931-3655-4bb0-b0a6-17224da8bfb5
+  quality: 0
+  icon: {fileID: 751858655663426444, guid: a67a195d3845b7c42abbf3e0a9088bce, type: 3}
+  description: 

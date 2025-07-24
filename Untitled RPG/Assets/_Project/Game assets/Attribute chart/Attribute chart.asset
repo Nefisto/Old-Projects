@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7fd3df39b3f4a5a83c6f0480dc1923b, type: 3}
+  m_Name: Attribute chart
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  serializedField:
+    <StrengthSector>k__BackingField:
+      <AttackAttribute>k__BackingField:
+        grow: 1
+        points: 0
+        attributeType: 0
+      <HealthRegenAttribute>k__BackingField:
+        grow: 1
+        points: 0
+        attributeType: 1
+      <HitRateAttribute>k__BackingField:
+        grow: 1
+        points: 0
+        attributeType: 2
+    <VitalitySector>k__BackingField:
+      <HealthMaxAttribute>k__BackingField:
+        grow: 1
+        points: 0
+        attributeType: 6
+      <DefenseAttribute>k__BackingField:
+        grow: 1
+        points: 0
+        attributeType: 7
+      <ResistanceAttribute>k__BackingField:
+        grow: 1
+        points: 0
+        attributeType: 8
+    <DexteritySector>k__BackingField:
+      <EvasionAttribute>k__BackingField:
+        grow: 1
+        points: 0
+        attributeType: 3
+      <CriticalAttribute>k__BackingField:
+        grow: 1
+        points: 0
+        attributeType: 4
+      <AttackSpeedAttribute>k__BackingField:
+        grow: 1
+        points: 0
+        attributeType: 5
+    <IntelligenceSector>k__BackingField:
+      <MagicAttribute>k__BackingField:
+        grow: 1
+        points: 0
+        attributeType: 9
+      <MagicDefenseAttribute>k__BackingField:
+        grow: 1
+        points: 0
+        attributeType: 10
+      <ManaRegen>k__BackingField:
+        grow: 1
+        points: 0
+        attributeType: 11
+    level: 1

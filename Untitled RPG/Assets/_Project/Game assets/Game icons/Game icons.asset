@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38b2e28c97c54db6a200611a6fe0e32e, type: 3}
+  m_Name: Game icons
+  m_EditorClassIdentifier: 
+  <PlayerAtbIcon>k__BackingField: {fileID: 21300000, guid: 41eba0d4569c3934ab70d196d9f0633a, type: 3}
+  <BuffOrDebuffIcons>k__BackingField:
+    fallbackIcon: {fileID: -236219681054243817, guid: 46314ee9c2eea904384139d2bb8bf463, type: 3}
+    effectKindToSprite:
+      keyData: 0000000001000000
+      valueData:
+      - icon: {fileID: -236219681054243817, guid: 46314ee9c2eea904384139d2bb8bf463, type: 3}
+      - icon: {fileID: -6854177731745156592, guid: 46314ee9c2eea904384139d2bb8bf463, type: 3}
+  <StatusEffectIcons>k__BackingField:
+    fallbackIcon: {fileID: 21300000, guid: 4d14b84a5d8a8834ca03b084493d816e, type: 3}
+    effectKindToSprite:
+      keyData: 01000000020000000300000004000000050000000600000007000000090000000a0000000b0000000c0000000d000000
+      valueData:
+      - icon: {fileID: -1550740178, guid: 815d5e530fc869148bd83f29f837568e, type: 3}
+      - icon: {fileID: 21300000, guid: ef7c0c69924659b4ca2c92897c8dafa9, type: 3}
+      - icon: {fileID: -1164502131, guid: 815d5e530fc869148bd83f29f837568e, type: 3}
+      - icon: {fileID: -1222661596, guid: 815d5e530fc869148bd83f29f837568e, type: 3}
+      - icon: {fileID: 351810298, guid: 815d5e530fc869148bd83f29f837568e, type: 3}
+      - icon: {fileID: -958959358, guid: 815d5e530fc869148bd83f29f837568e, type: 3}
+      - icon: {fileID: -1375916662845458741, guid: 46314ee9c2eea904384139d2bb8bf463, type: 3}
+      - icon: {fileID: 4250639787299523606, guid: 46314ee9c2eea904384139d2bb8bf463, type: 3}
+      - icon: {fileID: 21300000, guid: 07becf9e8b31e87499dd5808cde2dbdc, type: 3}
+      - icon: {fileID: 21300000, guid: 722d104095374f541866ab5b3bba8c71, type: 3}
+      - icon: {fileID: 21300000, guid: bd43d0f59d558324b8a125eac2b06955, type: 3}
+      - icon: {fileID: 21300000, guid: cc7398929c8547243b6894b8936d8145, type: 3}
+  <GameplayIcons>k__BackingField:
+    fallbackIcon: {fileID: 0}
+    effectKindToSprite:
+      keyData: 00000000
+      valueData:
+      - icon: {fileID: 21300000, guid: 3118b06cdd1ed2a4fb75504de24b89c1, type: 3}
+  <CharacterCreationIcons>k__BackingField:
+    fallbackIcon: {fileID: 0}
+    effectKindToSprite:
+      keyData: 00000000
+      valueData:
+      - icon: {fileID: -271658766, guid: 2709fc6bd03592743a2f89cf35a5e11d, type: 3}
+  <SaveSlotIcons>k__BackingField:
+    <EnumToIcon>k__BackingField:
+      keyData: 0000000001000000020000000300000004000000
+      valueData:
+      - isUnlocked: 1
+        icon: {fileID: 7059746434948323333, guid: c915493af324a894fb1a104ba49a1e89, type: 3}
+      - isUnlocked: 1
+        icon: {fileID: 51242817, guid: 2709fc6bd03592743a2f89cf35a5e11d, type: 3}
+      - isUnlocked: 0
+        icon: {fileID: -979500029, guid: 2709fc6bd03592743a2f89cf35a5e11d, type: 3}
+      - isUnlocked: 1
+        icon: {fileID: 1380634406, guid: 2709fc6bd03592743a2f89cf35a5e11d, type: 3}
+      - isUnlocked: 0
+        icon: {fileID: -1825910346, guid: 2709fc6bd03592743a2f89cf35a5e11d, type: 3}

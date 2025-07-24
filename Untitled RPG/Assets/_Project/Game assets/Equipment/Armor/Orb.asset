@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 661c5d85385144e6960d412b3c71de6b, type: 3}
+  m_Name: Orb
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  serializedField:
+    <Icon>k__BackingField: {fileID: 21300000, guid: 74375a2c53b77204a86717952b10fedb, type: 3}
+    <Name>k__BackingField: Orb
+    <DefaultSkill>k__BackingField: {fileID: 11400000, guid: a5ab220c182c7e84caade59ec405572a, type: 2}
+    <SkillA>k__BackingField: {fileID: 11400000, guid: 3a7538919065d1640a1271d6196b8a27, type: 2}
+    <SkillB>k__BackingField: {fileID: 11400000, guid: b30b95453c38ef54bade774f93750a5f, type: 2}
+    <Potential>k__BackingField:
+      strength: 0
+      vitality: 0
+      dexterity: 0
+      intelligence: 0

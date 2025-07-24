@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0836391a8de442f3a5312bd5523a70fb, type: 3}
+  m_Name: _Experience modifier table
+  m_EditorClassIdentifier: 
+  tableIcon: {fileID: 0}
+  tableDescription: 
+  percentageCalculation: 1
+  drops:
+  - entry: {fileID: 11400000, guid: da87a45f2fdb7734a845622628557cab, type: 2}
+    amountRange: {x: 1, y: 1}
+    weight: 35
+    odds: 0
+    isExtension: 0
+    isGuaranteed: 0
+    isDisabled: 0
+    ownerTable: {fileID: 11400000}
+    weightPercentage: 35
+    amountLimit: {x: 0, y: 10}
+    hasAlreadyUpdatedLimit: 1
+  - entry: {fileID: 11400000, guid: 3f58118dab5b4f548bfc3b900585bf45, type: 2}
+    amountRange: {x: 1, y: 1}
+    weight: 35
+    odds: 0
+    isExtension: 0
+    isGuaranteed: 0
+    isDisabled: 0
+    ownerTable: {fileID: 11400000}
+    weightPercentage: 35
+    amountLimit: {x: 0, y: 10}
+    hasAlreadyUpdatedLimit: 1
+  - entry: {fileID: 11400000, guid: 5c7fa8fedd9d701479746a9e6c36dd69, type: 2}
+    amountRange: {x: 1, y: 1}
+    weight: 15
+    odds: 0
+    isExtension: 0
+    isGuaranteed: 0
+    isDisabled: 0
+    ownerTable: {fileID: 11400000}
+    weightPercentage: 15
+    amountLimit: {x: 0, y: 10}
+    hasAlreadyUpdatedLimit: 1
+  - entry: {fileID: 11400000, guid: 052aff43f2fecb840a970344b03702ef, type: 2}
+    amountRange: {x: 1, y: 1}
+    weight: 15
+    odds: 0
+    isExtension: 0
+    isGuaranteed: 0
+    isDisabled: 0
+    ownerTable: {fileID: 11400000}
+    weightPercentage: 15
+    amountLimit: {x: 0, y: 10}
+    hasAlreadyUpdatedLimit: 1
+  clones: []

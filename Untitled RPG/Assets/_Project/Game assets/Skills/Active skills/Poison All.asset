@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 629f8949c82a4f7298ac6154ac7d133b, type: 3}
+  m_Name: Poison All
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Poison all
+  <Icon>k__BackingField: {fileID: 21300000, guid: c435e2566d1801147a539df1890a37d3, type: 3}
+  <Description>k__BackingField: 
+  <FatigueAmount>k__BackingField: 0
+  <Cooldown>k__BackingField: 4
+  <ResourceCost>k__BackingField: 0
+  <MainAttributesOrder>k__BackingField: 1
+  <SkillType>k__BackingField: 0
+  effectToApply:
+  - statusEffect: {fileID: 0}
+    baseChanceToTrigger: 0
+    baseChanceToApply: 0.5
+  shouldWaitForFinish: 0
+  <AlwaysHit>k__BackingField: 0
+  <ChanceToHit>k__BackingField: 0.95
+  <CriticalChance>k__BackingField: 0.05
+  <Target>k__BackingField: 3
+  atbModifier: 1
+  <ChargePointsSettings>k__BackingField: []
+  animationTypeEnum: 0
+  <SpeedVariation>k__BackingField: {x: 1, y: 1}
+  <OffsetVariationInX>k__BackingField: {x: 0, y: 0}
+  <OffsetVariationInY>k__BackingField: {x: 0, y: 0}
+  <SizeVariation>k__BackingField: {x: 1, y: 1}
+  <CanFlipX>k__BackingField: 0
+  <ShouldFlipYForPlayer>k__BackingField: 0

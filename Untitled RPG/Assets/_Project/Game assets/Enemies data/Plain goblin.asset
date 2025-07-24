@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd46d2ddd2a94464b8ffcf6c11ea5d12, type: 3}
+  m_Name: Plain goblin
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  serializedField:
+    currentLevel: 1
+    <Name>k__BackingField: Plain goblin
+    <TraitChart>k__BackingField:
+      <StrengthSector>k__BackingField:
+        <AccuracyAttribute>k__BackingField:
+          grow: 30
+          points: 47
+          attributeType: 1
+        <HealthRegenAttribute>k__BackingField:
+          grow: 41
+          points: 58
+          attributeType: 0
+        <CriticalDamageAttribute>k__BackingField:
+          grow: 1
+          points: 18
+          attributeType: 2
+      <VitalitySector>k__BackingField:
+        <HealthMaxAttribute>k__BackingField:
+          grow: 1
+          points: 1
+          attributeType: 3
+        <DefenseAttribute>k__BackingField:
+          grow: 1
+          points: 1
+          attributeType: 4
+        <ResistanceAttribute>k__BackingField:
+          grow: 1
+          points: 1
+          attributeType: 5
+      <DexteritySector>k__BackingField:
+        <EvasionAttribute>k__BackingField:
+          grow: 1
+          points: 1
+          attributeType: 6
+        <CriticalChanceAttribute>k__BackingField:
+          grow: 1
+          points: 1
+          attributeType: 7
+        <AttackSpeedAttribute>k__BackingField:
+          grow: 1
+          points: 1
+          attributeType: 8
+      <IntelligenceSector>k__BackingField:
+        <ProficiencyAttribute>k__BackingField:
+          grow: 1
+          points: 1
+          attributeType: 9
+        <ManaMaxAttribute>k__BackingField:
+          grow: 1
+          points: 1
+          attributeType: 10
+        <ManaRegenAttribute>k__BackingField:
+          grow: 1
+          points: 1
+          attributeType: 11
+    <Sprite>k__BackingField: {fileID: -5987960281300915409, guid: 78474a19c39df214fbf9b8fabf4bcafe, type: 3}
+    <ATBIcon>k__BackingField: {fileID: 32505893, guid: bbf38f9e1d4b8d64d9929f7e206d47f2, type: 3}
+    <EnemyBrain>k__BackingField: {fileID: 11400000, guid: fb2ec9fc942870a4b8e8b4aca2ac52fa, type: 2}
+    mainTraitKind: 3
+    <DefaultAttackSkill>k__BackingField: {fileID: 11400000, guid: a49a5adac93253b428f5eae401d52f3d, type: 2}

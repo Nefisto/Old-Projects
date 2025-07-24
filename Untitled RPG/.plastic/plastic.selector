@@ -1,0 +1,3 @@
+repository "Untitled RPG@local"
+  path "/"
+    smartbranch "/main/Unlockable skill slots" changeset "1147"

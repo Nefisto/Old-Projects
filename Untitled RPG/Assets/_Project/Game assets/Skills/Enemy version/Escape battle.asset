@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdbd7b96e4314d35b792c9584f56fe70, type: 3}
+  m_Name: Escape battle
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: 
+  <Icon>k__BackingField: {fileID: 0}
+  <Description>k__BackingField: 
+  <BaseDamage>k__BackingField: 0
+  <Duration>k__BackingField: 0
+  <RecoveryTime>k__BackingField: 0
+  <Cooldown>k__BackingField: 0
+  <ResourceCost>k__BackingField: 0
+  <MainAttributesOrder>k__BackingField: 0
+  nameOnBattle: Escape battle
+  <SkillType>k__BackingField: 0
+  effectToApply: []
+  animation: {fileID: 0}
+  shouldWaitForFinish: 0
+  <ChanceToHit>k__BackingField: 0.25
+  <CriticalChance>k__BackingField: 0
+  <Target>k__BackingField: 0
+  atbModifier: 0

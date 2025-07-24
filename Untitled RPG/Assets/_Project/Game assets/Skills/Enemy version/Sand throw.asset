@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45ff961afdc547d28003984704f1765c, type: 3}
+  m_Name: Sand throw
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Sand throw
+  <Icon>k__BackingField: {fileID: 21300000, guid: b5f3cc6ae82e99843b8fda9eae4bea79, type: 3}
+  <Description>k__BackingField: 
+  <BaseDamage>k__BackingField: 0
+  <Duration>k__BackingField: 0
+  <FatigueAmount>k__BackingField: 150
+  <Cooldown>k__BackingField: 0
+  <ResourceCost>k__BackingField: 0
+  <MainAttributesOrder>k__BackingField: 0
+  nameOnBattle: Sand thrown
+  <SkillType>k__BackingField: 0
+  effectToApply: []
+  shouldWaitForFinish: 0
+  <ChanceToHit>k__BackingField: 0.95
+  <CriticalChance>k__BackingField: 0.05
+  <Target>k__BackingField: 0
+  atbModifier: 2
+  chargeLevelSettings: []
+  animationTypeEnum: 3
+  <SpeedVariation>k__BackingField: {x: 0.75, y: 1.25}
+  <OffsetVariationInX>k__BackingField: {x: 0, y: 0}
+  <OffsetVariationInY>k__BackingField: {x: 0, y: 0}
+  <SizeVariation>k__BackingField: {x: 0.75, y: 1.25}
+  <CanFlipX>k__BackingField: 0
+  <ShouldFlipYForPlayer>k__BackingField: 1
+  chanceToBlind: 0.5
+  blindEffect: {fileID: 11400000, guid: 39be2a92d6b35f44fb13ca36eb9a98ef, type: 2}

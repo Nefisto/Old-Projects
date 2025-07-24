@@ -1,0 +1,99 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="/Assets/Plugins/Loot/Debugger/Selector/main.uss" />
+    <Style src="/Assets/Plugins/Loot/Debugger/Selector/List entry.uss" />
+    <Style src="/Assets/Plugins/Loot/Debugger/Selector/General.uss" />
+    <ui:TwoPaneSplitView fixed-pane-initial-dimension="250">
+        <ui:TwoPaneSplitView orientation="Vertical" name="left-TwoPaneSplitView" fixed-pane-index="0" fixed-pane-initial-dimension="450">
+            <ui:VisualElement name="original-table" style="height: auto; flex-grow: 1;">
+                <ui:Label text="Original tables" class="menu__header" />
+                <ui:ListView name="original-table--list" style="height: 100%; justify-content: space-around;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="runtime-table" style="height: 300px;">
+                <ui:Label text="Runtime tables" class="menu__header" />
+                <ui:ListView name="runtime-table--list" style="height: 100%;" />
+            </ui:VisualElement>
+        </ui:TwoPaneSplitView>
+        <ui:VisualElement name="table-information" style="margin-left: 5px; height: 100%; justify-content: flex-start;">
+            <ui:Label text="Drops" display-tooltip-when-elided="true" name="table-information--title" class="menu__header" />
+            <ui:VisualElement name="firsto-row" style="flex-direction: row; height: 50px;">
+                <ui:VisualElement name="table-information--icon" style="background-image: resource(&apos;Icons/no-icon&apos;); width: 40px; -unity-background-scale-mode: scale-to-fit;" />
+                <ui:Label text="Table name" display-tooltip-when-elided="true" name="table-information--name" style="-unity-text-align: middle-left; padding-left: 5px; width: 75%;" />
+                <ui:VisualElement name="table-information--percentage-calculation" style="flex-direction: row; flex-grow: 1; flex-shrink: 0; justify-content: flex-end; align-items: center;">
+                    <ui:VisualElement name="table-information--percentage-calculation--total-weight" class="hide" style="flex-direction: row;">
+                        <ui:Label text="Total weight: " display-tooltip-when-elided="true" name="table-information--percentage-calculation--total-weight--label" style="-unity-text-align: middle-center;" />
+                        <ui:Label text="5963" display-tooltip-when-elided="true" name="table-information--percentage-calculation--total-weight--value" style="-unity-text-align: middle-center; flex-grow: 1;" />
+                    </ui:VisualElement>
+                    <ui:Label text="------" display-tooltip-when-elided="true" name="table-information--percentage-calculation--label" class="table-list__percentage-type" style="font-size: 14px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="second-row" style="flex-direction: row; height: 50px;">
+                <ui:Label text="Table description" display-tooltip-when-elided="true" name="table-information--description--label" style="width: 40%;" />
+                <ui:Label display-tooltip-when-elided="true" name="table-information--description--value" style="flex-grow: 1; height: 100%; background-color: rgb(41, 41, 41); border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; margin-right: 5px; flex-shrink: 1; white-space: normal;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="drop-list" style="padding-top: 9px; flex-grow: 1;">
+                <ui:VisualElement name="table-information--drops--header" class="table-list__header" style="flex-direction: row;">
+                    <ui:Label text="Name" display-tooltip-when-elided="true" name="name" tooltip="This is a tooltip" class="table-entry__name" style="width: 50%;" />
+                    <ui:Label text="Range" display-tooltip-when-elided="true" name="range" class="table-entry__range" style="-unity-text-align: middle-center; width: 15%;" />
+                    <ui:Label text="Weight" display-tooltip-when-elided="true" name="table-information--drops--header--rate" class="table-entry__weight" style="-unity-text-align: middle-center;" />
+                    <ui:Label text="%" display-tooltip-when-elided="true" name="final-percentage" class="table-entry__current-percentage" style="-unity-text-align: upper-center;" />
+                </ui:VisualElement>
+                <ui:ListView name="table-information--drops" selection-type="None" item-height="21" picking-mode="Ignore" show-bound-collection-size="false" show-border="true" show-alternating-row-backgrounds="All" focusable="false" style="--unity-item-height: 32; height: 100%; flex-grow: 1; min-height: 300px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="table-information--options" style="flex-grow: 0; height: 70px; -unity-text-align: middle-left;">
+                <ui:Label text="Options" display-tooltip-when-elided="true" name="table-information--option--label" class="menu__header" style="height: 15px;" />
+                <ui:VisualElement name="table-information--options--entries" style="flex-direction: row; height: 40%;">
+                    <ui:VisualElement name="table-information--options--entry" class="options__entry" style="max-width: 125px;">
+                        <ui:VisualElement style="flex-grow: 1; align-items: center; justify-content: center; display: flex;">
+                            <ui:Toggle name="table-information--options--show-hierarchy" value="true" class="options__toggle" style="flex-grow: 1; width: 17px;" />
+                        </ui:VisualElement>
+                        <ui:Button text="Show extensions" display-tooltip-when-elided="true" name="table-information--options--show-hierarchy--button" class="options_button" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="table-information--options--entry" class="options__entry" style="max-width: 140px;">
+                        <ui:VisualElement style="flex-grow: 1; align-items: center; justify-content: center;">
+                            <ui:Toggle name="table-information--options--show-repetition" value="true" class="options__toggle" style="flex-grow: 1; width: 17px;" />
+                        </ui:VisualElement>
+                        <ui:Button text="Mark skipped entries" display-tooltip-when-elided="true" name="table-information--options--show-repetition--button" class="options_button" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="table-information--options--entry" class="options__entry" style="max-width: 150px;">
+                        <ui:VisualElement style="flex-grow: 1; align-items: center; justify-content: center;">
+                            <ui:Toggle name="table-information--options--show-color-changes" value="true" class="options__toggle" style="flex-grow: 1; width: 17px;" />
+                        </ui:VisualElement>
+                        <ui:Button text="Color changes" display-tooltip-when-elided="true" name="table-information--options--show-color-changes--button" class="options_button" style="-unity-text-align: middle-left;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="space" style="flex-grow: 1;" />
+                    <ui:VisualElement name="table-information--options--entry--refresh-rate" class="options__entry" style="max-width: 300px; flex-grow: 1;">
+                        <ui:Slider picking-mode="Ignore" value="0.5" high-value="1" low-value="0" label="Refresh rate" name="table-information--options--refresh--slider" style="-unity-background-scale-mode: stretch-to-fill; flex-direction: row; font-size: 13px; width: 50%;" />
+                        <ui:Label text="0.016 s" display-tooltip-when-elided="true" name="table-information--options--refresh-suffix" style="width: 25%; -unity-text-align: middle-center;" />
+                        <ui:Button text="Refresh" display-tooltip-when-elided="true" name="table-information--options--refresh--result-label" style="width: 25%;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="table-information--options--tags--meaning" style="flex-direction: row; background-color: rgb(41, 41, 41); flex-grow: 1; padding-left: 4px; padding-right: 4px; padding-top: 4px; padding-bottom: 4px; justify-content: space-around;">
+                    <ui:VisualElement name="table-information--options--tags--meaning--guaranteed" style="flex-grow: 1; flex-direction: row;">
+                        <ui:VisualElement name="icon" class="table-entry__tag tablelist__entry__tag--guaranteed">
+                            <ui:Label text="G" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:Label text=": Guaranteed drops" display-tooltip-when-elided="true" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="table-information--options--tags--meaning--guaranteed" style="flex-grow: 1; flex-direction: row;">
+                        <ui:VisualElement name="icon" class="table-entry__tag tablelist__entry__tag--disabled">
+                            <ui:Label text="D" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:Label text=": Disabled drops" display-tooltip-when-elided="true" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="table-information--options--tags--meaning--guaranteed" style="flex-grow: 1; flex-direction: row;">
+                        <ui:VisualElement name="icon" class="table-entry__tag tablelist__entry__tag--extension">
+                            <ui:Label text="E" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:Label text=": Extension drops" display-tooltip-when-elided="true" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="table-information--options--tags--meaning--guaranteed" style="flex-grow: 1; flex-direction: row;">
+                        <ui:VisualElement name="icon" class="table-entry__tag tablelist__entry__tag--filtered">
+                            <ui:Label text="F" display-tooltip-when-elided="true" />
+                        </ui:VisualElement>
+                        <ui:Label text=": Filtered out drops" display-tooltip-when-elided="true" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:TwoPaneSplitView>
+</ui:UXML>

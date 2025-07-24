@@ -1,0 +1,342 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Overview </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Overview ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="overview">Overview</h1>
+
+<p>​   This overview was designed to provide you with the necessary information to fully understand how this plugin work, also create a terminology to help you to understand what something does just by seeing it&#39;s name. You can also find a small guide to demo inside the Demo folder that will provide you with an explanation about what each sample tries to demonstrate, it&#39;s a good way to understand it by looking directly at the commented code, if you are getting trouble understanding some specific API, just hit me up in discord and I&#39;ll try my best to help.</p>
+<hr>
+<h2 id="core-concepts">Core concepts</h2>
+<h3 id="core-classes">Core classes:</h3>
+<ul>
+<li><strong>Drop table:</strong> This is the drop container and control the calculation used thought the drops inside it (see below for more information about percentage calculation kind), also it&#39;s from here that you will control the <em>drops</em> properties, aside from other additional, for more specific cases, settings. It&#39;s inherit from scriptable object so you can create it the right-click context - <strong>right-click -&gt; Create -&gt; Drops -&gt; New Table</strong> -. This has not only your drops but also the callbacks, modifier, and filters (we will talk more about these in the specific section), and it&#39;s from where you will request drops.</li>
+<li><strong>Drops:</strong> A layer representing your drop settings, can only be accessed thought the drop table (on the inspector), controlling things like your entry, percentage to drop, amount variation, and other additional settings.</li>
+</ul>
+<p>Those classes above you, probably, will change thought the inspector to setup your scenario, below we have classes that represent the answer of some requested operation and only exist in the code side.</p>
+<ul>
+<li><strong>Bag:</strong> This is a container of <em>Loot</em>, when you request a drop from your <em>Drop table</em> you will get a Bag as result.</li>
+<li><strong>Loot:</strong> This is a limited version of the drop that contains only the entry and the collapsed dropped amount (if your <em>drop</em> can vary between 3~7 units when randomized a <em>loot</em> will have a single value between the selected range), when you iterate over <em>Bag</em> you&#39;ll get <em>Loot</em>.</li>
+</ul>
+<hr>
+<h3 id="modifier--filter">Modifier / Filter</h3>
+<p>We need to be able to modify and filter the drops at runtime. <strong>Loot</strong> has some events exposed to allow you to control the final outcome of a table, those events run in a specific order, let&#39;s see this order and then talk a little about each of them.</p>
+<div align="center"> <strong>Global modify</strong> =&gt; <strong>Global modified</strong> =&gt; <strong>Local modify</strong> =&gt; <strong>Local modified</strong> =&gt; <strong>Table filter</strong></div>
+
+<h4 id="global-modify">Global modify</h4>
+<ul>
+<li>Applied to <strong>all</strong> tables</li>
+<li>It is invoked <strong>one time for each entry</strong> in the table requesting it</li>
+<li>It will provide context information though a <a href="./../api/Loot.Context.ModifyContext.html">Modify context</a></li>
+<li>Should be registered though <strong>class</strong> </li>
+</ul>
+<pre><code class="lang-c#">private void Awake()
+    =&gt; DropTable.OnGlobalModify += DoubleCurrenciesAmount;
+
+// RULE: Drop 2x for each drop of currency type
+private void DoubleCurrenciesAmount (ModifyContext ctx)
+{
+    var currentDrop = ctx.CurrentDrop;
+
+    if (!(currentDrop.Entry is Currency))
+        return;
+
+    currentDrop.AmountRange *= 2;
+}
+</code></pre><h4 id="global-modified">Global modified</h4>
+<p>Note that most operations that could be done in <strong>Modified</strong> could also be done on <strong>Modify</strong> instead, but this event is called just one time per table, so if your rule is relying on some calculation, maybe is a good idea to add it here instead of on <strong>Modify</strong></p>
+<ul>
+<li>Applied to <strong>all</strong> tables</li>
+<li>It is invoked <strong>one time per table</strong> requesting it</li>
+<li>It will provide context information though a <a href="./../api/Loot.Context.ModifiedContext.html">Modified context</a></li>
+<li>Should be register though <strong>class</strong></li>
+</ul>
+<pre><code class="lang-c#">private void Awake()
+    =&gt; DropTable.OnGlobalModified += MyCustomModified;
+
+// If this table have 2 or more card, all MISC type items will get a bonus of flat 10% in drop chance
+private void MyCustomModified (ModifiedContext ctx)
+{
+    var modifiedDrops = ctx.ModifiedDrops;
+
+    // We are using ModifIED here instead of ModifY, cause we don&#39;t want to count amount of cards for each item that we go though
+    var amountOfCards = modifiedDrops
+        .Count(d =&gt; d.Entry is Misc m &amp;&amp; m.name.ToUpper().Contains(&quot;CARD&quot;));
+
+    if (amountOfCards &lt; 2)
+        return;
+
+    var miscList = modifiedDrops
+        .Where(d =&gt; d.Entry is Misc);
+
+    foreach (var drop in miscList)
+        drop.Percentage += 10f;
+}
+</code></pre><h4 id="local-modify">Local modify</h4>
+<ul>
+<li>Applied to <strong>referenced</strong> table</li>
+<li>It is invoked <strong>one time for each entry</strong> in the table requesting it</li>
+<li>It will provide context information though a <a href="./../api/Loot.Context.ModifyContext.html">Modify context</a></li>
+<li>Should be registered though <strong>instance</strong> </li>
+</ul>
+<pre><code class="lang-c#">public DropTable monsterTable;
+
+private void Awake()
+    =&gt; monsterTable.OnLocalModify += GuaranteeCurrency;
+
+// All CURRENCY that have COIN in name will be guaranteed to drop
+private void GuaranteeCurrency (ModifyContext ctx)
+{
+    var currentDrop = ctx.CurrentDrop;
+
+    if (!(currentDrop.Entry is Currency))
+        return;
+
+    if (!currentDrop.Entry.name.ToUpper().Contains(&quot;COIN&quot;))
+        return;
+
+    currentDrop.IsGuaranteed = true;
+}
+</code></pre><h4 id="local-modified">Local modified</h4>
+<p>Similar to global modified but its applied only only the current referenced table instead of all</p>
+<ul>
+<li>Applied to <strong>referenced</strong> table</li>
+<li>It is invoked <strong>one time per table</strong> requesting it</li>
+<li>It will provide context information though a <a href="./../api/Loot.Context.ModifiedContext.html">Modified context</a></li>
+<li>Should be register though <strong>instance</strong></li>
+</ul>
+<pre><code class="lang-c#">public DropTable monsterTable;
+
+private void Awake()
+    =&gt; monsterTable.OnLocalModified += MyCustomModified;
+
+private void MyCustomModified (ModifiedContext ctx)
+    =&gt;  // TODO: think in a sample to insert here \o/
+</code></pre><h4 id="table-filter">Table filter</h4>
+<p>This operation will filter your table using <code>Predicate&lt;Drop, bool&gt;</code>, keep in mind that the item <strong>must</strong> pass thought <strong>all filter</strong> to appear in the iteration</p>
+<ul>
+<li>Applied to <strong>referenced</strong> table</li>
+<li>It is invoked <strong>one time for each entry</strong> in the table requesting it</li>
+<li>It will provide the current <a href="./../api/Loot.Drop.html">Drop</a> though callback signature</li>
+<li>Should be registered though <strong>instance</strong> </li>
+</ul>
+<pre><code class="lang-c#">public DropTable monsterTable;
+
+private void Awake()
+    =&gt; monsterTable.AddFilter(MyFilterRule);
+
+// If player is cursed, show only cursed items
+// If player is not cursed show only no cursed items
+private bool MyFilterRule (Drop drop)
+    =&gt; drop.Entry is Item item 
+       &amp;&amp; item.cursed == player.IsCursed;
+</code></pre><hr>
+<h2 id="additional-concepts">Additional concepts</h2>
+<p>Let&#39;s take a look at some additional important concepts that reside inside <strong>Loot</strong>:</p>
+<h3 id="percentage-calculation">Percentage calculation</h3>
+<p>In the drop table inspector we can see an enum field called <strong>percentage calculation</strong>. This field will change the way that drop percentage/chance is calculated </p>
+<div align="center">
+    <img src="images/sample_percentageCalculation.png" alt="sample">
+</div>
+
+<ul>
+<li><p><strong>Simple:</strong> Each drop has its percentage individually, this means that when we ask for a drop, the table will try to drop each entry individually. 
+<strong>i.e.</strong> suppose that we have two drops A and B, and each one has 50% to be dropped, when we ask for a drop, our result bag can have A, A and B, B or nothing (empty bag), also as the entries are independent changing the percentage of one entry will not interfere in another percentage.</p>
+</li>
+<li><p><strong>Weighted:</strong> The percentage of each drop depends on the sum of the weight of each item, and the sum of all percentages should always be 100%, this also means that when we ask for a drop the table will give to us only one drop from the list. 
+<strong>i.e.</strong> continuing with our A and B example, if each one weights 1, this means that each has 50% to be dropped, our result bag possibilities are A or B, also if we change our B to weight 2 this will make our A change from 50% to 33% and our B change from 50% to 66%, because the sum of weighs is 3, A percentage is equal to their weight (1) divided by the table weight (3), so A = 1/3 = 33% and B = 2/3 = 66%.</p>
+</li>
+</ul>
+<hr>
+<h3 id="guaranteed">Guaranteed</h3>
+<p>Toggling it will make your drop always drop. </p>
+<p>Note that requesting a drop from a <strong>weight table</strong> that has guaranteed drops will give to you a <strong>bag</strong> with <strong>all the guaranteed drops</strong> plus <strong>one of the non-guaranteed drops</strong>.</p>
+<p>Also take in count that it will remove the drop from the total weight sum, as you can see in the gif below.</p>
+<p align="center"> <img src="images/gif_guaranteed.gif" alt=""></p>
+
+<hr>
+<h3 id="hidden">Hidden</h3>
+<p>Toggling it will make your drop to <strong>not</strong> appear on iterations, will <strong>not</strong> be able to be dropped and also, as expected, will not be take in count for weighted tables. Think in it like an secret drop that will have a chance to drop just when player makes a specific action.</p>
+<div align="center"> 
+    <img src="images/gif_hidden.gif" alt=""> 
+</div>
+
+<hr>
+<h3 id="extension-drop">Extension drop</h3>
+<p>​   This feature is created to allow you to have hierarchy drops mixing multiple drop tables and treat all then as a unique table. Take the following example in count: in your game every <u>wolf</u> drops a <em>fur</em>, also every <u>baby wolf</u> drops a <em>teeth</em> then you have a <u>Blue Baby wolf</u> enemy that, as the name suggests, drops things from <u>wolf table</u>,  <u>baby wolf table</u> and also some custom items specific from this kind of wolf. You can toggle this feature into the drop on inspector:</p>
+<div align="center"><img src="images/sample_extensionDrop.png" alt="sample"> </div>
+
+<p><strong>Important:</strong> Note that we can enable it on <em>_Common wolf drop</em> entry and can&#39;t on <em>Teeth</em> entry. This option will be enabled only when the entry is another <strong>Drop Table</strong> AND the <a href="overview.html#percentage-calculation">percentage calculation</a> between two table are equal.</p>
+<p>When this option is enabled the entry will not be treated as a drop (so you will not get it when iterating over this table, instead you will get the union between two drop tables), and in the case that your table is a weighted one, the weight from inner tables will interfere in outer tables, as we can see in the following gif.</p>
+<p><img src="images/sample_innerDropChangeWeight.gif" alt=""></p>
+<hr>
+<h3 id="enumerators">Enumerators</h3>
+<p>​   We provide some enumerators to allow you to have different views of the current table, you can change the view altering fields of the <a href="./../api/Loot.Enum.Filter.html">Filter</a> when calling a custom enumerator or can use some of the our pre made enumerators.</p>
+<h4 id="default-enumerator">Default enumerator</h4>
+<p>This is our implementation of <code>IEnumerable&lt;Drop&gt;</code>, it will internally call the default behavior of the <em>custom enumerator</em> that is:</p>
+<ul>
+<li>Include all drops that isn&#39;t hidden nor extensions</li>
+<li>Open all extension drops until we have none of them OR have reach at max depth, this maximum can be changed on <a href="./../api/Loot.LootSettings.html">Loot.Settings</a></li>
+<li>While opening extensions <strong>skip</strong> tables that are already added (check repetition by table reference)</li>
+<li>Remove all drops marked as <a href="overview.html#hidden">hidden</a></li>
+<li>Clone all drops and</li>
+<li>Apply all the modifiers and filter</li>
+</ul>
+<p><strong>NOTE:</strong> modifiers and filters are applied on runtime only, so calls used in the editor will skip those invocations</p>
+<pre><code class="lang-c#">foreach (var drop in monsterTable)
+{
+    // Do something...
+}
+</code></pre><h4 id="raw-enumerator">Raw enumerator</h4>
+<p>A sugar to give you a copy of your drops as you see them in the drop table inspector</p>
+<ul>
+<li>Included drops still a cloned version of original drops</li>
+<li>Do not open extensions, so will your receive just the properly extension drop</li>
+<li>As we don&#39;t open extensions we check for repetitions</li>
+<li>Include hidden drops</li>
+<li>Does <strong>NOT</strong> apply any modifier or filter</li>
+</ul>
+<pre><code class="lang-c#">foreach (var drop in monsterTable.RawEnumerator())
+{
+    // Funny operations...    
+}
+</code></pre><h4 id="custom-enumerator">Custom enumerator</h4>
+<p>This is the base enumerator that others will rely on, all of them call this enumerator using custom filter settings, but you can call it yourself and set the view that you want to receive, for example</p>
+<pre><code class="lang-c#">var myCustomFilterSettings = Filter.IncludeHiddenDrops | Filter.DontInvokeLocalModify | Filter.DontInvokeLocalModified;
+foreach (var drop in monsterTable.CustomEnumerator(myCustomFilterSettings)) { }
+</code></pre><p>here we will receive the default behavior with the following changes</p>
+<ul>
+<li>We will <strong>include</strong> drops marked as <a href="overview.html#hidden">hidden</a></li>
+<li>We will skip the invocation of <strong>local modifiers</strong> </li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Nefisto/Loot-doc/blob/main/manual/overview.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+              </div>
+          
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <h5>In This Article</h5>
+              <div></div>
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <div class="pull-left">
+              
+              <span>Generated by <strong>DocFX</strong></span>
+            </div>
+            <div class="toggle-mode pull-right visible-sm visible-xs">
+              <div class="icon">
+                <i aria-hidden="true">☀</i>
+              </div>
+              <label class="switch">
+                <input type="checkbox" id="switch-style-m">
+                <span class="slider round"></span>
+              </label>
+              <div class="icon">
+                <i aria-hidden="true">☾</i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="../styles/toggle-theme.js"></script>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

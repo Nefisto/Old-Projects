@@ -1,0 +1,64 @@
+.menu__header {
+    background-color: rgb(87, 87, 87);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    -unity-font-style: normal;
+}
+
+.options__entry {
+    -unity-text-align: middle-left;
+    flex-grow: 1;
+    max-width: 175px;
+    font-size: 14px;
+    flex-direction: row;
+}
+
+.options__color-sample {
+    background-image: url('/Assets/Plugins/Loot/Icons/white square 3x3.png');
+    flex-grow: 1;
+}
+
+.options__toggle {
+    flex-grow: 1;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.options_button {
+    flex-grow: 1;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.unity-base-slider__label {
+    min-width: 0;
+}
+
+.unity-slider__input {
+    top: 6px;
+}
+
+.unity-slider-dragger--enabled {
+    background-color: rgba(255, 255, 255, 255);
+}
+
+.unity-base-slider__label--disabled {
+    color: rgba(142, 142, 142, 255);
+}

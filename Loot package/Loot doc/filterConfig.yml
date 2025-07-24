@@ -1,0 +1,16 @@
+apiRules:
+- exclude:
+    uidRegex: ^Loot\.Editor
+    type: Namespace
+- exclude:
+    uidRegex: ^Loot\.Utilities
+    type: Namespace
+- exclude:
+    uidRegex: ^Loot\.Param
+    type: Namespace
+
+
+    
+attributeRules:
+- exclude:
+    uidRegex: ^System\.Serializable

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7251542264a4e9cb22c6e2124ee11d6, type: 3}
+  m_Name: 07. Repeatable
+  m_EditorClassIdentifier: 
+  description: 'Sometimes you want to be able to run the same sequence of drop
+
+    PS:
+    Technically this isn''t a feature from the system, because we use Unity random
+    internally so this only show an example of how to control random state'
+  dropTable: {fileID: 11400000, guid: 1d667a296e837a54d9e2487314f54acc, type: 2}

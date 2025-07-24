@@ -1,0 +1,29 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="/Assets/Plugins/Loot/Debugger/Selector/List entry.uss" />
+    <Style src="/Assets/Plugins/Loot/Debugger/Selector/General.uss" />
+    <ui:VisualElement name="drop-list__entry" focusable="false" picking-mode="Ignore" class="table-list__entry" style="flex-direction: row; height: 21px;">
+        <ui:Label text="Drop name" display-tooltip-when-elided="true" name="name" class="table-entry__name" style="-unity-text-align: middle-left; flex-grow: 0; flex-shrink: 1; width: 40%;" />
+        <ui:VisualElement name="tags" style="width: 10%; flex-direction: row; align-items: center;">
+            <ui:VisualElement name="tags--guaranteed" class="occult table-entry__tag tablelist__entry__tag--guaranteed">
+                <ui:Label text="G" display-tooltip-when-elided="true" style="-unity-text-align: middle-center; border-top-left-radius: 6px; border-bottom-left-radius: 6px; border-top-right-radius: 6px; border-bottom-right-radius: 6px; color: rgb(255, 255, 255);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="tags--disabled" class="occult table-entry__tag tablelist__entry__tag--disabled">
+                <ui:Label text="D" display-tooltip-when-elided="true" style="-unity-text-align: middle-center; border-top-left-radius: 6px; border-bottom-left-radius: 6px; border-top-right-radius: 6px; border-bottom-right-radius: 6px; color: rgb(255, 255, 255);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="tags--extension" class="occult table-entry__tag tablelist__entry__tag--extension">
+                <ui:Label text="E" display-tooltip-when-elided="true" style="-unity-text-align: middle-center; border-top-left-radius: 6px; border-bottom-left-radius: 6px; border-top-right-radius: 6px; border-bottom-right-radius: 6px; color: rgb(255, 255, 255);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="tags--filtered" class="occult table-entry__tag tablelist__entry__tag--filtered">
+                <ui:Label text="F" display-tooltip-when-elided="true" style="-unity-text-align: middle-center; color: rgb(255, 255, 255); border-top-left-radius: 6px; border-bottom-left-radius: 6px; border-top-right-radius: 6px; border-bottom-right-radius: 6px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement style="width: 15%; flex-direction: row;">
+            <ui:Label text="3 ~ 4" display-tooltip-when-elided="true" name="range" class="table-entry__range" style="width: 100%; display: none;" />
+            <ui:Label text="3" display-tooltip-when-elided="true" name="range__min" style="-unity-text-align: middle-right; color: rgb(255, 255, 255); width: 40%; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+            <ui:Label text="~" display-tooltip-when-elided="true" name="range__separator" style="-unity-text-align: middle-center; color: rgb(255, 255, 255); padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+            <ui:Label text="3" display-tooltip-when-elided="true" name="range__max" style="-unity-text-align: middle-left; width: 40%; color: rgb(255, 255, 255); padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+        </ui:VisualElement>
+        <ui:Label text="12" display-tooltip-when-elided="true" name="weight" class="table-entry__weight" />
+        <ui:Label text="--" display-tooltip-when-elided="true" name="final-percentage" class="table-entry__current-percentage" />
+    </ui:VisualElement>
+</ui:UXML>

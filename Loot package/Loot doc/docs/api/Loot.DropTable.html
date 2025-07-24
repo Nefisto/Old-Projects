@@ -1,0 +1,864 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DropTable
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DropTable
+   ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Loot.DropTable">
+  
+  
+  <h1 id="Loot_DropTable" data-uid="Loot.DropTable" class="text-break">Class DropTable
+  </h1>
+  <div class="markdown level0 summary"><p>Container for your drops and configurations of how to drop things</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Loot.Drop.html">Drop</a>&gt;</div>
+    <div><span class="xref">System.Collections.IEnumerable</span></div>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Loot_DropTable_OnGlobalModified" data-uid="Loot.DropTable.OnGlobalModified">OnGlobalModified</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Action&lt;ModifiedContext&gt; OnGlobalModified</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Loot.Context.ModifiedContext.html">ModifiedContext</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Loot_DropTable_OnGlobalModify" data-uid="Loot.DropTable.OnGlobalModify">OnGlobalModify</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Action&lt;ModifyContext&gt; OnGlobalModify</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Loot.Context.ModifyContext.html">ModifyContext</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Loot_DropTable_OnLocalModified" data-uid="Loot.DropTable.OnLocalModified">OnLocalModified</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action&lt;ModifiedContext&gt; OnLocalModified</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Loot.Context.ModifiedContext.html">ModifiedContext</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Loot_DropTable_OnLocalModify" data-uid="Loot.DropTable.OnLocalModify">OnLocalModify</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action&lt;ModifyContext&gt; OnLocalModify</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Loot.Context.ModifyContext.html">ModifyContext</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Loot_DropTable_Description_" data-uid="Loot.DropTable.Description*"></a>
+  <h4 id="Loot_DropTable_Description" data-uid="Loot.DropTable.Description">Description</h4>
+  <div class="markdown level1 summary"><p>Table description</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Description { get; set; }</code></pre>
+  </div>
+  
+  
+  <a id="Loot_DropTable_Icon_" data-uid="Loot.DropTable.Icon*"></a>
+  <h4 id="Loot_DropTable_Icon" data-uid="Loot.DropTable.Icon">Icon</h4>
+  <div class="markdown level1 summary"><p>Provide an icon to the table.
+<p>
+<p>It`s normally used when you want to list the table as a drop in some list.</p></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Sprite Icon { get; set; }</code></pre>
+  </div>
+  
+  
+  <a id="Loot_DropTable_PercentageCalculation_" data-uid="Loot.DropTable.PercentageCalculation*"></a>
+  <h4 id="Loot_DropTable_PercentageCalculation" data-uid="Loot.DropTable.PercentageCalculation">PercentageCalculation</h4>
+  <div class="markdown level1 summary"><p>This decides the method used to calculate the drops percentage.</p>
+<p>
+<p>You can get more info about different calculations methods on <a class="xref" href="Loot.DropTable.html#Loot_DropTable_PercentageCalculation">PercentageCalculation</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PercentageCalculation PercentageCalculation { get; set; }</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Loot_DropTable_AddDrop_" data-uid="Loot.DropTable.AddDrop*"></a>
+  <h4 id="Loot_DropTable_AddDrop_Loot_Drop_" data-uid="Loot.DropTable.AddDrop(Loot.Drop)">AddDrop(Drop)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddDrop(Drop drop)</code></pre>
+  </div>
+    
+  
+  
+  
+  <a id="Loot_DropTable_AddFilter_" data-uid="Loot.DropTable.AddFilter*"></a>
+  <h4 id="Loot_DropTable_AddFilter_System_Predicate_Loot_Drop__" data-uid="Loot.DropTable.AddFilter(System.Predicate{Loot.Drop})">AddFilter(Predicate&lt;Drop&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use OnTableFilter instead&quot;)]
+public void AddFilter(Predicate&lt;Drop&gt; filter)</code></pre>
+  </div>
+    
+  
+  
+  
+  <a id="Loot_DropTable_AddFilterToDrops_" data-uid="Loot.DropTable.AddFilterToDrops*"></a>
+  <h4 id="Loot_DropTable_AddFilterToDrops_System_Predicate_Loot_Drop__System_Predicate_Loot_Drop__" data-uid="Loot.DropTable.AddFilterToDrops(System.Predicate{Loot.Drop},System.Predicate{Loot.Drop})">AddFilterToDrops(Predicate&lt;Drop&gt;, Predicate&lt;Drop&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddFilterToDrops(Predicate&lt;Drop&gt; dropsGroup, Predicate&lt;Drop&gt; filter)</code></pre>
+  </div>
+    
+  
+  
+  
+  <a id="Loot_DropTable_Clone_" data-uid="Loot.DropTable.Clone*"></a>
+  <h4 id="Loot_DropTable_Clone" data-uid="Loot.DropTable.Clone">Clone()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DropTable Clone()</code></pre>
+  </div>
+  
+  
+  <a id="Loot_DropTable_CustomDrop_" data-uid="Loot.DropTable.CustomDrop*"></a>
+  <h4 id="Loot_DropTable_CustomDrop_System_Int32_System_Func_System_Collections_Generic_List_Loot_Drop__Loot_Bag__System_Action_Loot_Context_DroppingContext__System_Action_Loot_Context_DroppedContext__" data-uid="Loot.DropTable.CustomDrop(System.Int32,System.Func{System.Collections.Generic.List{Loot.Drop},Loot.Bag},System.Action{Loot.Context.DroppingContext},System.Action{Loot.Context.DroppedContext})">CustomDrop(Int32, Func&lt;List&lt;Drop&gt;, Bag&gt;, Action&lt;DroppingContext&gt;, Action&lt;DroppedContext&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Bag CustomDrop(int numberOfDrops = 1, Func&lt;List&lt;Drop&gt;, Bag&gt; customDropBehaviour = null, Action&lt;DroppingContext&gt; beforeDropCallback = null, Action&lt;DroppedContext&gt; afterDropCallback = null)</code></pre>
+  </div>
+    
+  
+  
+  
+  <a id="Loot_DropTable_CustomEnumerator_" data-uid="Loot.DropTable.CustomEnumerator*"></a>
+  <h4 id="Loot_DropTable_CustomEnumerator_Loot_Enum_Filter_" data-uid="Loot.DropTable.CustomEnumerator(Loot.Enum.Filter)">CustomEnumerator(Filter)</h4>
+  <div class="markdown level1 summary"><p>Here you can specify what kind of drops that you want to receive, take a look at <a class="xref" href="Loot.Enum.Filter.html">Filter</a> on
+documentation</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;Drop&gt; CustomEnumerator(Filter settings)</code></pre>
+  </div>
+    
+  
+  
+  
+  <a id="Loot_DropTable_Drop_" data-uid="Loot.DropTable.Drop*"></a>
+  <h4 id="Loot_DropTable_Drop_System_Int32_" data-uid="Loot.DropTable.Drop(System.Int32)">Drop(Int32)</h4>
+  <div class="markdown level1 summary"><p>API to request a drop</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Bag Drop(int n = 1)</code></pre>
+  </div>
+    
+  
+  
+  
+  <a id="Loot_DropTable_GetEnumerator_" data-uid="Loot.DropTable.GetEnumerator*"></a>
+  <h4 id="Loot_DropTable_GetEnumerator" data-uid="Loot.DropTable.GetEnumerator">GetEnumerator()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerator&lt;Drop&gt; GetEnumerator()</code></pre>
+  </div>
+  
+  
+  <a id="Loot_DropTable_Load_" data-uid="Loot.DropTable.Load*"></a>
+  <h4 id="Loot_DropTable_Load_Loot_Data_DropTableSaveData_Loot_Params_LoadParams_" data-uid="Loot.DropTable.Load(Loot.Data.DropTableSaveData,Loot.Params.LoadParams)">Load(DropTableSaveData, LoadParams)</h4>
+  <div class="markdown level1 summary"><p>This overload will use deserialize callbacks passed via loadParams to find and clone your table and create your
+drops</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DropTable Load(DropTableSaveData data, LoadParams loadParams)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Loot.Data.DropTableSaveData.html">DropTableSaveData</a></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>Deserialized data</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Loot.Params.LoadParams</span></td>
+        <td><span class="parametername">loadParams</span></td>
+        <td><p>Callbacks to recovery your table and drops</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Loot.DropTable.html">DropTable</a></td>
+        <td><p>A clone of the table recovered by load params deserialize table</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Loot_DropTable_Load_Loot_Data_DropTableSaveData_Loot_Params_LoadParams__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><div class="NOTE"><h5>Note</h5><p>Your table will be cloned inside this method, so just pass a way to recovery original table</p>
+</div>
+</div>
+  <h5 id="Loot_DropTable_Load_Loot_Data_DropTableSaveData_Loot_Params_LoadParams__examples">Examples</h5>
+  <div class="NOTE"><h5>Note</h5><p>This example came from Save/Load demo scene with minor modification
+<pre><code class="lang-cs">public void Load()
+{
+// We will get our saved JSON from file and remove the possible pretty print
+var savedJson = &quot;&quot;;
+using (var sr = new StreamReader(Application.persistentDataPath + &quot;/save.json&quot;))
+{
+    var line = &quot;&quot;;
+    while ((line = sr.ReadLine()) != null)
+        savedJson += line;
+}<p>
+</code></pre></div>
+<p>// Create our data
+var savedData = JsonUtility.FromJson&lt;DropTableSaveData&gt;(savedJson);</p>
+<p>// Then we recovery our table
+// In this case our tables and items are being stored by resources
+tableOwner.runtimeTable = DropTable.Load(savedData, new LoadParams 
+{
+    deserializeTable = tableName =&gt; Resources
+        .Load&lt;DropTable&gt;(&quot;Tables/&quot; + tableName),</p>
+<pre><code>deserializeEntry = entryName =&gt; string.IsNullOrWhiteSpace(entryName) 
+    ? null 
+    : Resources.Load&amp;lt;ScriptableObject&gt;(&amp;quot;Items/&amp;quot; + entryName)
+</code></pre><p>});
+}</p>
+
+  
+  
+  <a id="Loot_DropTable_Load_" data-uid="Loot.DropTable.Load*"></a>
+  <h4 id="Loot_DropTable_Load_Loot_DropTable_Loot_Data_DropTableSaveData_" data-uid="Loot.DropTable.Load(Loot.DropTable,Loot.Data.DropTableSaveData)">Load(DropTable, DropTableSaveData)</h4>
+  <div class="markdown level1 summary"><p>This overload will load only values from your saved data, this means that addictive operations (drops that can&apos;t be
+recovered
+from your original table at runtime) will not be loaded</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Load(DropTable runtimeTable, DropTableSaveData data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Loot.DropTable.html">DropTable</a></td>
+        <td><span class="parametername">runtimeTable</span></td>
+        <td><p>Drop table that will receive the loaded values</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Loot.Data.DropTableSaveData.html">DropTableSaveData</a></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>Deserialized data</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Loot_DropTable_Load_Loot_DropTable_Loot_Data_DropTableSaveData__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><div class="WARNING"><h5>Warning</h5><p>As remove drops isn&apos;t considered a destructive operation, this will compare entries in your data with drops in
+your runtime table
+and if their entry name does not match drop will be removed</p>
+</div>
+</div>
+  <h5 id="Loot_DropTable_Load_Loot_DropTable_Loot_Data_DropTableSaveData__examples">Examples</h5>
+  <div class="NOTE"><h5>Note</h5><p>This example came from Save/Load demo scene with minor modification
+<pre><code class="lang-cs">public void Load()
+{<br>// Get our saved string from file and remove the possible pretty print
+var savedJson = &quot;&quot;;
+using (var sr = new StreamReader(Application.persistentDataPath + &quot;/simplestSave.json&quot;))
+{
+    var line = &quot;&quot;;
+    while ((line = sr.ReadLine()) != null)
+        savedJson += line;
+}<p>
+</code></pre></div>
+<p>// Load from json
+var loadedData = JsonUtility.FromJson&lt;DropTableSaveData&gt;(savedJson);</p>
+<p>// Here we will pass recovered data for our runtime table
+DropTable.Load(runtimeTable, loadedData);
+}</p>
+
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ComponentModel.WarningException</span></td>
+        <td><p>If you try to change values in a table that isn&apos;t a clone</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Loot_DropTable_MultipleDrop_" data-uid="Loot.DropTable.MultipleDrop*"></a>
+  <h4 id="Loot_DropTable_MultipleDrop_System_Int32_" data-uid="Loot.DropTable.MultipleDrop(System.Int32)">MultipleDrop(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use Drop passing a parameter N instead&quot;)]
+public Bag MultipleDrop(int n)</code></pre>
+  </div>
+    
+  
+  
+  
+  <a id="Loot_DropTable_RawEnumerator_" data-uid="Loot.DropTable.RawEnumerator*"></a>
+  <h4 id="Loot_DropTable_RawEnumerator" data-uid="Loot.DropTable.RawEnumerator">RawEnumerator()</h4>
+  <div class="markdown level1 summary"><p>This enumerator will provide you the original drops that you see in the inspector, including hidden drops
+without open the extensions and not applying any modify or filter.
+[WARNING] Be careful as this returns to you the actual drops list, so changes on it will be permanent.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;Drop&gt; RawEnumerator()</code></pre>
+  </div>
+  
+  
+  <a id="Loot_DropTable_RemoveAllTableFilters_" data-uid="Loot.DropTable.RemoveAllTableFilters*"></a>
+  <h4 id="Loot_DropTable_RemoveAllTableFilters" data-uid="Loot.DropTable.RemoveAllTableFilters">RemoveAllTableFilters()</h4>
+  <div class="markdown level1 summary"><p>Clean filters from this table</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveAllTableFilters()</code></pre>
+  </div>
+  
+  
+  <a id="Loot_DropTable_RemoveDrop_" data-uid="Loot.DropTable.RemoveDrop*"></a>
+  <h4 id="Loot_DropTable_RemoveDrop_Loot_Drop_" data-uid="Loot.DropTable.RemoveDrop(Loot.Drop)">RemoveDrop(Drop)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveDrop(Drop drop)</code></pre>
+  </div>
+    
+  
+  
+  
+  <a id="Loot_DropTable_RemoveDrop_" data-uid="Loot.DropTable.RemoveDrop*"></a>
+  <h4 id="Loot_DropTable_RemoveDrop_System_Predicate_Loot_Drop__" data-uid="Loot.DropTable.RemoveDrop(System.Predicate{Loot.Drop})">RemoveDrop(Predicate&lt;Drop&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveDrop(Predicate&lt;Drop&gt; predicate)</code></pre>
+  </div>
+    
+  
+  
+  
+  <a id="Loot_DropTable_Save_" data-uid="Loot.DropTable.Save*"></a>
+  <h4 id="Loot_DropTable_Save_Loot_DropTable_" data-uid="Loot.DropTable.Save(Loot.DropTable)">Save(DropTable)</h4>
+  <div class="markdown level1 summary"><p>Convert your table to a serializable structure that can be saved</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DropTableSaveData Save(DropTable tableToSerialize)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Loot.DropTable.html">DropTable</a></td>
+        <td><span class="parametername">tableToSerialize</span></td>
+        <td><p>Table that will be serialized</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Loot.Data.DropTableSaveData.html">DropTableSaveData</a></td>
+        <td><p>The structure ready to be saved in your disk</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Loot_DropTable_Save_Loot_DropTable__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><div class="WARNING"><h5>Warning</h5><p>Your modifiers and filters will not be saved</p>
+</div>
+</div>
+  <h5 id="Loot_DropTable_Save_Loot_DropTable__examples">Examples</h5>
+  <div class="NOTE"><h5>Note</h5><p>This example came from Save/Load demo scene with minor modification
+<pre><code class="lang-cs">public void Save()
+{
+// Convert our table to save data
+var saveData = DropTable.Save(runtimeTable);<p>
+</code></pre></div>
+<p>// Create JSON
+var saveJson = JsonUtility.ToJson(saveData, true);</p>
+<p>// Then save it as you normally do when using things json
+using (var sw = new StreamWriter(Application.persistentDataPath + &quot;/save.json&quot;))
+{
+    sw.Write(saveJson);
+}
+}</p>
+
+  
+  
+  <a id="Loot_DropTable_Save_" data-uid="Loot.DropTable.Save*"></a>
+  <h4 id="Loot_DropTable_Save_Loot_DropTable_Loot_Params_SaveParams_" data-uid="Loot.DropTable.Save(Loot.DropTable,Loot.Params.SaveParams)">Save(DropTable, SaveParams)</h4>
+  <div class="markdown level1 summary"><p>This override will receive a SaveParams to allow you to inform how we should serialize your
+original table and/or drops, so you will be able to use this information to recovery table state in load methods</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DropTableSaveData Save(DropTable tableToSerialize, SaveParams saveParams)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Loot.DropTable.html">DropTable</a></td>
+        <td><span class="parametername">tableToSerialize</span></td>
+        <td><p>Table that will be serialized</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Loot.Params.SaveParams</span></td>
+        <td><span class="parametername">saveParams</span></td>
+        <td><p>Class the contains your methods to transform table and drop into something serializable</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Loot.Data.DropTableSaveData.html">DropTableSaveData</a></td>
+        <td><p>The structure ready to be saved in your disk</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Loot_DropTable_Save_Loot_DropTable_Loot_Params_SaveParams__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><div class="WARNING"><h5>Warning</h5><p>Your modifiers and filters will not be saved</p>
+</div>
+<div class="NOTE"><h5>Note</h5><p>Fields inside <a href="xref:Loot.Params.SaveParams">SaveParams</a> are optional</p>
+</div>
+</div>
+  <h5 id="Loot_DropTable_Save_Loot_DropTable_Loot_Params_SaveParams__examples">Examples</h5>
+  <div class="NOTE"><h5>Note</h5><p>This example came from Save/Load demo scene with minor modification
+<pre><code class="lang-cs">public void Save()
+{
+// As this will suppose that destructive operations was done in our table, lets use a Save
+// override that allow us to recover table (for modifiers) and new entries
+var savedData = DropTable.Save(runtimeTable, new SaveParams
+{
+    serializeTable = () =&gt; templateTable.name, // Serialize our base table by name
+    serializeEntry = drop =&gt; drop.Entry == null  // Serialize each drop by name too
+            ? string.Empty
+            : drop.Entry.name
+});<p>
+</code></pre></div>
+<p>// Convert it to JSON
+var savedJson = JsonUtility.ToJson(savedData, true);</p>
+<p>// Then save it
+using (var sw = new StreamWriter(Application.persistentDataPath + &quot;/save.json&quot;))
+{
+    sw.Write(savedJson);
+}
+}</p>
+
+  
+  
+  <a id="Loot_DropTable_SumOfWeights_" data-uid="Loot.DropTable.SumOfWeights*"></a>
+  <h4 id="Loot_DropTable_SumOfWeights" data-uid="Loot.DropTable.SumOfWeights">SumOfWeights()</h4>
+  <div class="markdown level1 summary"><p>This will open extensions, remove hidden, remove duplications apply modifiers and filters and THEN
+give the sum of weight to you</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int SumOfWeights()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The sum of drop`s weight</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="Loot_DropTable_OnDropped" data-uid="Loot.DropTable.OnDropped">OnDropped</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;DroppedContext&gt; OnDropped</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Loot.Context.DroppedContext.html">DroppedContext</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Loot_DropTable_OnDropping" data-uid="Loot.DropTable.OnDropping">OnDropping</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;DroppingContext&gt; OnDropping</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Loot.Context.DroppingContext.html">DroppingContext</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Loot_DropTable_OnTableFilter" data-uid="Loot.DropTable.OnTableFilter">OnTableFilter</h4>
+  <div class="markdown level1 summary"><p>This will be called when iterating over the list to filter it</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Predicate&lt;Drop&gt; OnTableFilter</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Predicate</span>&lt;<a class="xref" href="Loot.Drop.html">Drop</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  
+  
+  <a id="Loot_DropTable_System_Collections_IEnumerable_GetEnumerator_" data-uid="Loot.DropTable.System#Collections#IEnumerable#GetEnumerator*"></a>
+  <h4 id="Loot_DropTable_System_Collections_IEnumerable_GetEnumerator" data-uid="Loot.DropTable.System#Collections#IEnumerable#GetEnumerator">IEnumerable.GetEnumerator()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerator IEnumerable.GetEnumerator()</code></pre>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+              </div>
+          
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <h5>In This Article</h5>
+              <div></div>
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <div class="pull-left">
+              
+              <span>Generated by <strong>DocFX</strong></span>
+            </div>
+            <div class="toggle-mode pull-right visible-sm visible-xs">
+              <div class="icon">
+                <i aria-hidden="true">☀</i>
+              </div>
+              <label class="switch">
+                <input type="checkbox" id="switch-style-m">
+                <span class="slider round"></span>
+              </label>
+              <div class="icon">
+                <i aria-hidden="true">☾</i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="../styles/toggle-theme.js"></script>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

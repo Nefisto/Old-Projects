@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0836391a8de442f3a5312bd5523a70fb, type: 3}
+  m_Name: 05. Filter
+  m_EditorClassIdentifier: 
+  tableIcon: {fileID: 0}
+  tableDescription: 
+  percentageCalculation: 0
+  drops:
+  - entry: {fileID: 11400000, guid: 84800fae71264414abd9454d7c61672c, type: 2}
+    amountRange: {x: 5, y: 20}
+    weight: 0
+    percentage: 0
+    isExtension: 0
+    isGuaranteed: 1
+    isHidden: 0
+    ownerTable: {fileID: 0}
+    weightPercentage: -1
+    amountLimit: {x: 0, y: 20}
+    hasAlreadyUpdatedLimit: 1
+  - entry: {fileID: 11400000, guid: 5c56d4d8b8432db4db6d26d53ed4178f, type: 2}
+    amountRange: {x: 1, y: 1}
+    weight: 0
+    percentage: 20
+    isExtension: 0
+    isGuaranteed: 0
+    isHidden: 0
+    ownerTable: {fileID: 0}
+    weightPercentage: -1
+    amountLimit: {x: 0, y: 10}
+    hasAlreadyUpdatedLimit: 1
+  - entry: {fileID: 11400000, guid: 8f1bf00c4493f5b4b9bc060153a966d7, type: 2}
+    amountRange: {x: 3, y: 4}
+    weight: 0
+    percentage: 80
+    isExtension: 0
+    isGuaranteed: 0
+    isHidden: 0
+    ownerTable: {fileID: 0}
+    weightPercentage: -1
+    amountLimit: {x: 0, y: 10}
+    hasAlreadyUpdatedLimit: 1
+  - entry: {fileID: 11400000, guid: 6ebd8cbd346a01242ba812cf78f990a4, type: 2}
+    amountRange: {x: 2, y: 3}
+    weight: 0
+    percentage: 55
+    isExtension: 0
+    isGuaranteed: 0
+    isHidden: 0
+    ownerTable: {fileID: 0}
+    weightPercentage: -1
+    amountLimit: {x: 0, y: 10}
+    hasAlreadyUpdatedLimit: 1
+  - entry: {fileID: 11400000, guid: 2c3cf0a2e62586843bc78ce80bc96527, type: 2}
+    amountRange: {x: 3, y: 5}
+    weight: 0
+    percentage: 60
+    isExtension: 0
+    isGuaranteed: 0
+    isHidden: 0
+    ownerTable: {fileID: 0}
+    weightPercentage: -1
+    amountLimit: {x: 0, y: 10}
+    hasAlreadyUpdatedLimit: 1
+  - entry: {fileID: 11400000, guid: f2ee8eed51dc6ed4c8a935f1db58bf2d, type: 2}
+    amountRange: {x: 1, y: 2}
+    weight: 0
+    percentage: 30
+    isExtension: 0
+    isGuaranteed: 0
+    isHidden: 0
+    ownerTable: {fileID: 0}
+    weightPercentage: -1
+    amountLimit: {x: 0, y: 10}
+    hasAlreadyUpdatedLimit: 1
+  clones:
+  - {fileID: 11400000}

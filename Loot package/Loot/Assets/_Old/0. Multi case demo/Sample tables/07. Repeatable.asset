@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0836391a8de442f3a5312bd5523a70fb, type: 3}
+  m_Name: 07. Repeatable
+  m_EditorClassIdentifier: 
+  dropTableKind: 0
+  description: 
+  logic: {fileID: 0}
+  newDrop:
+  - name: 
+    newEntry: {fileID: 11400000, guid: 8f1bf00c4493f5b4b9bc060153a966d7, type: 2}
+    amountVariation: {x: 1, y: 1}
+    weight: 0
+    percentage: 75
+    isGuaranteed: 0
+    ownerTable: {fileID: 11400000}
+    weightPercentage: -1
+  - name: 
+    newEntry: {fileID: 11400000, guid: 618b1f86dfd46a2419ac6fe83f4560fa, type: 2}
+    amountVariation: {x: 1, y: 1}
+    weight: 0
+    percentage: 50.85
+    isGuaranteed: 0
+    ownerTable: {fileID: 11400000}
+    weightPercentage: -1
+  - name: 
+    newEntry: {fileID: 11400000, guid: 6ebd8cbd346a01242ba812cf78f990a4, type: 2}
+    amountVariation: {x: 1, y: 1}
+    weight: 0
+    percentage: 27.86
+    isGuaranteed: 0
+    ownerTable: {fileID: 11400000}
+    weightPercentage: -1
+  - name: 
+    newEntry: {fileID: 11400000, guid: 52dbbdb888fb2d548ad0ddff81d8f972, type: 2}
+    amountVariation: {x: 1, y: 1}
+    weight: 0
+    percentage: 0.01
+    isGuaranteed: 0
+    ownerTable: {fileID: 11400000}
+    weightPercentage: -1

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7251542264a4e9cb22c6e2124ee11d6, type: 3}
+  m_Name: 04. Hidden
+  m_EditorClassIdentifier: 
+  description: 'Hidde case: you can mark some drops as hidden, this wil make drop
+    does not participate in calculation on weighted table and cannot be dropped.
+
+    Here
+    I''m trying to simulate a monster that drop unique items if hit by elemental
+    attacks, toggle hit types and new drops will appear.'
+  dropTable: {fileID: 11400000, guid: 67308a476717ba4439cdc5fff2ce43d7, type: 2}

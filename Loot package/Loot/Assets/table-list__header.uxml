@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="table-list__header" class="table-list__header" style="flex-direction: row; height: 20px;">
+        <ui:Label text="Name" display-tooltip-when-elided="true" name="name" style="width: 40%;" />
+        <ui:Label text="Range" display-tooltip-when-elided="true" name="range" style="width: 20%;" />
+        <ui:Label text="Weight" display-tooltip-when-elided="true" name="weight" style="width: 20%;" />
+        <ui:Label text="G" display-tooltip-when-elided="true" name="is-guaranteed" style="width: 5%; -unity-text-align: upper-center;" />
+        <ui:Label text="H" display-tooltip-when-elided="true" name="is-hidden" style="width: 5%; -unity-text-align: upper-center;" />
+        <ui:Label text="E" display-tooltip-when-elided="true" name="is-extension" style="width: 5%; -unity-text-align: upper-center;" />
+        <ui:Label text="%" display-tooltip-when-elided="true" name="final-percentage" style="width: 5%; -unity-text-align: upper-center;" />
+    </ui:VisualElement>
+</ui:UXML>

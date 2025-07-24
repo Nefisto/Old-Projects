@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d219efb47774570971b15c2dc30f677, type: 3}
+  m_Name: Test deck A
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: dc81a91c0cf623e479a83b9adf6f62f2, type: 2}
+    - {fileID: 11400000, guid: b6abb27eb0e0283449ec2b21b6931ba7, type: 2}
+    - {fileID: 11400000, guid: 4afb4d96b7915aa49abe57b8c6642f35, type: 2}
+    - {fileID: 11400000, guid: f6bda8b5a9cf7204d961daf8e9aa0de2, type: 2}
+    - {fileID: 11400000, guid: a50db940f5e54cd489da5158c624b5c1, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: InternalDeck
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[CardData, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 

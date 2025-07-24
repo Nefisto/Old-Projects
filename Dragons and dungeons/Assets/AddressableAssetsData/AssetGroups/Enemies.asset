@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Enemies
+  m_EditorClassIdentifier: 
+  m_GroupName: Enemies
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 6e426801cfd433a40a85accf2cad279f
+  m_SerializeEntries:
+  - m_GUID: 446d566daff5f6b4aa3268816ad7a25c
+    m_Address: Chutchulu
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Enemy data
+  - m_GUID: 8f5efbb6d008457418d1d022e04c9551
+    m_Address: James sullivan
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Enemy data
+  - m_GUID: 9f73c58a2dde7234481e47d19cc4e127
+    m_Address: Wazowski
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Enemy data
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 21e8e2c67e86281498bc6b58dfba55b0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b6fffb591846e494eb49598276fca8d6, type: 2}
+    - {fileID: 11400000, guid: 79f6cb9deb660cf45acf320f28e29695, type: 2}

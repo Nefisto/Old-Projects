@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: a19f1ec1a2c519744b0325eca37fb770
+  m_SerializeEntries:
+  - m_GUID: 56ba2a944b1964243b166640ed013e86
+    m_Address: Persistent manager
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Manager
+  - m_GUID: cb9867799ba997a4788de0710561f36c
+    m_Address: Player
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 56f368e4a85bc5d4bb0273506121f6e7
+    m_Address: Tutorial inventory
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4a236ba19816e2a4b8dccb2ce09b20d8
+    m_Address: Info card canvas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 21e8e2c67e86281498bc6b58dfba55b0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d2377334625baee4a914d24e36c6089c, type: 2}
+    - {fileID: 11400000, guid: e9befab7f4ece8b4fa7f0c656f0d5d19, type: 2}

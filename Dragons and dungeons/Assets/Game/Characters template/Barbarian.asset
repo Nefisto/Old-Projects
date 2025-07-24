@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 662e4fa69d2d4d1cba14eab64fc16f54, type: 3}
+  m_Name: Barbarian
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  icon: {fileID: 21300000, guid: a122d834c8bddca4984e3bdc7f4f2467, type: 3}
+  name: Ms. Padowski
+  defaultSkills:
+  - {fileID: 11400000, guid: 02486e8728b8c604588277fb2180b0d1, type: 2}
+  equipment:
+    weapon: {fileID: 11400000, guid: 9e269f7309b5a5c4ca3c1b85eec4b9a8, type: 2}
+    chestArmor: {fileID: 11400000, guid: 512edbaf01453234fa4b70ee611e873b, type: 2}
+    headArmor: {fileID: 11400000, guid: 6a615de858739f945958ea17e2f4fa63, type: 2}
+  inventory: {fileID: 11400000, guid: 96d3e63e8cc52794b9f1ed03608b6de5, type: 2}
+  baseStatus:
+    level: 18
+    experience: 0
+    attributes:
+      health: 0
+      strength: 100
+      dexterity: 100
+      intelligence: 100

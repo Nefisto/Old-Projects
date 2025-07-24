@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Dialog Box
+  - Pawn
+  - Dungeon manager
+  - Dungeon node
+  - UI_canvas
+  - UI_Card info
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Battle scene
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Dungeon map - Node
+    uniqueID: 3159158019
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Dungeon map - Pawn
+    uniqueID: 1203610011
+    locked: 0
+  - name: HUD
+    uniqueID: 1293241967
+    locked: 0
+  - name: UI
+    uniqueID: 2961733971
+    locked: 0
+  - name: Dialog box
+    uniqueID: 1779841837
+    locked: 0
+  - name: Battle actors
+    uniqueID: 1657990343
+    locked: 0
+  - name: Equipments
+    uniqueID: 3630625801
+    locked: 0

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abe6d886f0da4115a1f4adf2323fc898, type: 3}
+  m_Name: Brave ALL
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 00148abf1c252354fa46de835f39bcf5, type: 3}
+  groupTarget: 0
+  maxAmountOfTargets: 3
+  modifierToApply: {fileID: 11400000, guid: d7c1442850b5a074c838d410b1f7e333, type: 2}
+  red: 0
+  green: 0
+  blue: 0

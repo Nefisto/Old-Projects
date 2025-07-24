@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Scenes
+  m_EditorClassIdentifier: 
+  m_GroupName: Scenes
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 1eb5648333663d345b03e2b594fcf9ef
+  m_SerializeEntries:
+  - m_GUID: 239694317ec14084099b332688fd57ca
+    m_Address: City
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Scene
+    - City
+  - m_GUID: 2cda990e2423bbf4892e6590ba056729
+    m_Address: Battle scene
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Scene
+  - m_GUID: f44395dfdda7c78468e3cfc0d742a816
+    m_Address: Green cave
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 21e8e2c67e86281498bc6b58dfba55b0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: defc842d78939b54ead15a06aa17fff9, type: 2}
+    - {fileID: 11400000, guid: 6dad477fc48a4d9428048b9de41654fb, type: 2}

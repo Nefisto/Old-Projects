@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10c46bade81e472ebc4a9b66cabc0ade, type: 3}
+  m_Name: Cooper armor
+  m_EditorClassIdentifier: 
+  itemName: Cooper armor
+  icon: {fileID: -5921372736548640056, guid: 8888240909f43f044bd07c32676c57da, type: 3}
+  maxStack: 1
+  customRuntimeImage: 0
+  runtimeImage: {fileID: 0}
+  idOnRuntime: 0
+  activeSkills: []
+  <CanStack>k__BackingField: 0
+  passiveSkills: []

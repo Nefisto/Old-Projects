@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Skills
+  m_EditorClassIdentifier: 
+  m_GroupName: Skills
+  m_Data:
+    m_SerializedData: []
+  m_GUID: dfc74d25a6db14c4c91212c6c2b81e5c
+  m_SerializeEntries:
+  - m_GUID: 02486e8728b8c604588277fb2180b0d1
+    m_Address: Basic attack
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Skills
+  - m_GUID: b3e6ec64389b8b44fbf633ce84d12788
+    m_Address: Brave all
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Skills
+  - m_GUID: b88dc78550d3ab242ac43460e859fc3a
+    m_Address: Brave I
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Skills
+  - m_GUID: e50ee8f885a49f1458502cf292bfcbf4
+    m_Address: Cleave attack
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Skills
+  - m_GUID: 666bef9bd720a9741ad61fd49f181fab
+    m_Address: Cursed cleave
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Skills
+  - m_GUID: a39c0aadfc86f4b4e96e46f86d3a5010
+    m_Address: Group heal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Skills
+  - m_GUID: 376f1430310190a42b4061b8ec944485
+    m_Address: Heal II
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Skills
+  - m_GUID: 8499a57ffed9ac7429fb842921583bca
+    m_Address: Heal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Skills
+  - m_GUID: 777332a8a0bd74549b673a23207160a4
+    m_Address: Intel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Skills
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 21e8e2c67e86281498bc6b58dfba55b0, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f89e31411efc2e845b5758e29e5ed644, type: 2}
+    - {fileID: 11400000, guid: 28904e2141b9ddd4f9b45cf6b13c1a76, type: 2}

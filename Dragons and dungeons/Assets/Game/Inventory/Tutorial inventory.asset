@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27f48871a4124c4cac08df57727b1f7b, type: 3}
+  m_Name: Tutorial inventory
+  m_EditorClassIdentifier: 
+  inventory:
+  - data: {fileID: 11400000, guid: 97d1a067fe1a3c344a3cffa387d20d17, type: 2}
+    amount: 1
+  - data: {fileID: 11400000, guid: 8770c5b16fb0bf54a84da6f45f6ac0f5, type: 2}
+    amount: 1
+  - data: {fileID: 11400000, guid: 512edbaf01453234fa4b70ee611e873b, type: 2}
+    amount: 1
+  - data: {fileID: 11400000, guid: bd484fc89051fd14b84cc0fd8c0f8454, type: 2}
+    amount: 1
+  - data: {fileID: 11400000, guid: 455365582f5ffea4eb991ab1dea44880, type: 2}
+    amount: 1
+  - data: {fileID: 11400000, guid: 9e269f7309b5a5c4ca3c1b85eec4b9a8, type: 2}
+    amount: 1
+  - data: {fileID: 11400000, guid: 6a615de858739f945958ea17e2f4fa63, type: 2}
+    amount: 1
+  - data: {fileID: 11400000, guid: 041631cd8d76c5949be1ccd031257cfd, type: 2}
+    amount: 1
+  - data: {fileID: 11400000, guid: 1b1fc151105f71c4dabfd88284fecef6, type: 2}
+    amount: 1
+  - data: {fileID: 11400000, guid: 1b1fc151105f71c4dabfd88284fecef6, type: 2}
+    amount: 2
+  - data: {fileID: 11400000, guid: 1b1fc151105f71c4dabfd88284fecef6, type: 2}
+    amount: 4
+  - data: {fileID: 0}
+    amount: 1
+  - data: {fileID: 0}
+    amount: 1
+  - data: {fileID: 0}
+    amount: 1
+  - data: {fileID: 0}
+    amount: 1
+  - data: {fileID: 0}
+    amount: 1
+  - data: {fileID: 0}
+    amount: 1
+  - data: {fileID: 0}
+    amount: 1
